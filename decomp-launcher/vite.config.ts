@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
+import { fileURLToPath, URL } from "node:url";
 import react from "@vitejs/plugin-react";
-// @ts-expect-error type error without @types/node package
 import process from "node:process";
 const host = process.env.TAURI_DEV_HOST;
 
@@ -27,6 +27,12 @@ export default defineConfig(() => ({
     watch: {
       // 3. tell Vite to ignore watching `src-tauri`
       ignored: ["**/src-tauri/**"],
+
+      resolve: {
+        alias: {
+          "@": fileURLToPath(new URL("./src", import.meta.url))
+        }
+      }
     },
   },
 }));
