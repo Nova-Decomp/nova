@@ -114,3 +114,85 @@ button {
     background-color: #0f0f0f69;
   }
 }
+
+.tb-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  color: #7fb0ff;
+}
+.caret {
+  color: var(--muted);
+}
+.side-btn .tb-icon {
+  color: var(--muted);
+}
+.side-btn:hover:not(:disabled) .tb-icon {
+  color: var(--text);
+}
+
+.games {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  overflow-y: auto;
+}
+.groups {
+  align-self: flex-start;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.spacer {
+   flex: 1; 
+  }
+
+.menu-right {
+  left: auto; right: 0; 
+}
+
+.group-head {
+   display: flex; 
+   align-items: center; 
+   gap: 6px; width: 100%; 
+   background: none; border: none; 
+   color: var(--muted); 
+   padding: 4px 2px; 
+   font-size: 13px; 
+  }
+
+.group-head:hover { 
+  color: var(--text); 
+}
+
+.group-line { 
+  flex: 1; 
+  height: 1px; 
+  background: var(--border); 
+  margin-left: 6px; 
+}
+
+.group .tiles { 
+  margin: 6px 0 10px; 
+}
+
+.side-art { 
+  color: var(--muted); 
+}
+
+.side-letter { 
+  font-size: 44px; 
+  font-weight: 700; 
+  color: var(--text); 
+}
+
+.news-left { 
+  display: flex; 
+  align-items: center; 
+  gap: 6px; 
+}
