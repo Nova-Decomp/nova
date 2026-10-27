@@ -21,9 +21,14 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import "./App.css";
-import { ToolbarButton, ToolbarMenu } from "@/components/Toolbar";
+import { ToolbarButton, ToolbarMenu } from "@/components/toolbar";
 import { getGames } from "@/data/catalog";
-import { DownloadDialog, EditDialog, GuideDialog, SettingsDialog } from "@/dialogs/Dialogs";
+import {
+  DownloadDialog,
+  EditDialog,
+  GuideDialog,
+  SettingsDialog,
+} from "@/dialogs/Dialogs";
 import { noop } from "@/lib/noop";
 import type { Game } from "@/types";
 
@@ -34,15 +39,16 @@ export default function App() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
 
-  const installed = getGames().filter((g) => g.installed); // set installed:false in catalog.ts to see the welcome screen
+  const installed = getGames().filter((g) => g.installed);
   const selected = installed.find((g) => g.id === selectedId) ?? null;
 
-  // group installed games by original platform
   const byPlatform = installed.reduce<Record<string, Game[]>>((acc, g) => {
     (acc[g.platform] ??= []).push(g);
     return acc;
   }, {});
-  const groups = Object.entries(byPlatform).sort(([a], [b]) => a.localeCompare(b));
+  const groups = Object.entries(byPlatform).sort(([a], [b]) =>
+    a.localeCompare(b),
+  );
 
   const toggleGroup = (name: string) =>
     setCollapsed((prev) => {
@@ -56,7 +62,11 @@ export default function App() {
   const sideActions = [
     { icon: <Play size={ic} />, label: "Play", onClick: noop },
     { icon: <Square size={ic} />, label: "Stop", onClick: noop },
-    { icon: <Pencil size={ic} />, label: "Edit", onClick: () => setDialog("edit") },
+    {
+      icon: <Pencil size={ic} />,
+      label: "Edit",
+      onClick: () => setDialog("edit"),
+    },
     { icon: <Layers size={ic} />, label: "Change group", onClick: noop },
     { icon: <FolderOpen size={ic} />, label: "Folder", onClick: noop },
     { icon: <Upload size={ic} />, label: "Export", onClick: noop },
@@ -68,7 +78,11 @@ export default function App() {
   return (
     <div className="app">
       <header className="toolbar">
-        <ToolbarButton icon={<Download size={20} />} label="Download Decomps" onClick={() => setDialog("download")} />
+        <ToolbarButton
+          icon={<Download size={20} />}
+          label="Download Decomps"
+          onClick={() => setDialog("download")}
+        />
         <div className="sep" />
         <ToolbarMenu
           icon={<Folder size={20} />}
@@ -79,29 +93,51 @@ export default function App() {
             { label: "Launcher data folder", onClick: noop },
           ]}
         />
-        <ToolbarButton icon={<RefreshCw size={20} />} label="Refresh" onClick={noop} />
-        
+        <ToolbarButton
+          icon={<Settings size={20} />}
+          label="Settings"
+          onClick={() => setDialog("settings")}
+        />
+        <ToolbarMenu
+          icon={<LifeBuoy size={20} />}
+          label="Help"
+          items={[
+            {
+              label: "How to install games",
+              onClick: () => setDialog("guide"),
+            },
+            { label: "Report a bug", onClick: noop },
+          ]}
+        />
+        <ToolbarButton
+          icon={<RefreshCw size={20} />}
+          label="Update"
+          onClick={noop}
+        />
+
         <div className="spacer" />
 
         <ToolbarMenu
-        icon={<CircleUser size={20} />}
-        label="Guest"
-        align="right"
-        items={[
-          { label: "Sign in. . .", onClick: noop},
-          { label: "Language", onCLick: noop},
-        ]}
-      />
-    </header>
+          icon={<CircleUser size={20} />}
+          label="Guest"
+          align="right"
+          items={[
+            { label: "Sign in...", onClick: noop },
+            { label: "Language", onClick: noop },
+          ]}
+        />
+      </header>
 
-    <div className="middle">
-      <main className="games" onClick={() => setSelectedId}>
-        {installed.lenght === 0 ? (
-          <div className="welcome">
-            Welcome!<br />Click "Download Decomps" to get started.
-          </div>
-        ) : (
-          <div className="groups">
+      <div className="middle">
+        <main className="games" onClick={() => setSelectedId(null)}>
+          {installed.length === 0 ? (
+            <div className="welcome">
+              Welcome!
+              <br />
+              Click "Download Decomps" to get started.
+            </div>
+          ) : (
+            <div className="groups">
               {groups.map(([name, list]) => {
                 const isCollapsed = collapsed.has(name);
                 return (
@@ -113,7 +149,11 @@ export default function App() {
                         toggleGroup(name);
                       }}
                     >
-                      {isCollapsed ? <ChevronRight size={14} /> : <ChevronDown size={14} />}
+                      {isCollapsed ? (
+                        <ChevronRight size={14} />
+                      ) : (
+                        <ChevronDown size={14} />
+                      )}
                       <span>{name}</span>
                       <span className="group-line" />
                     </button>
@@ -122,17 +162,19 @@ export default function App() {
                         {list.map((g) => (
                           <div
                             key={g.id}
-                            className={"tile" + (g.id === selectedId ? " selected" : "")}
+                            className={
+                              "tile" + (g.id === selectedId ? " selected" : "")
+                            }
                             onClick={(e) => {
                               e.stopPropagation();
                               setSelectedId(g.id);
                             }}
                             onDoubleClick={noop}
                           >
-                            <div className="title-icon">{g.name.charAt(0)}</div>
-                            <div className="title-name">{g.name}</div>
+                            <div className="tile-icon">{g.name.charAt(0)}</div>
+                            <div className="tile-name">{g.name}</div>
                           </div>
-                         ))}
+                        ))}
                       </div>
                     )}
                   </section>
@@ -144,12 +186,16 @@ export default function App() {
 
         <aside className="side">
           <div className="side-art">
-            {selected ? <span className="side-letter">{selected.name.charAt(0)}</span> : <Gamepad2 size={48} />}
+            {selected ? (
+              <span className="side-letter">{selected.name.charAt(0)}</span>
+            ) : (
+              <Gamepad2 size={48} />
+            )}
           </div>
           <div className="side-actions">
             {sideActions.map((a, i) => (
               <button
-              key={a.label}
+                key={a.label}
                 className={"side-btn" + (i === 2 ? " gap" : "")}
                 disabled={!selected}
                 onClick={a.onClick}
@@ -157,11 +203,11 @@ export default function App() {
                 <span className="tb-icon">{a.icon}</span>
                 {a.label}
               </button>
-          ))}
-        </div>
-      </aside>
-    </div>
-     <div className="newsbar">
+            ))}
+          </div>
+        </aside>
+      </div>
+      <div className="newsbar">
         <span className="news-left">
           <Newspaper size={14} /> Decomp Launcher 0.1.0: early development
         </span>
@@ -172,10 +218,16 @@ export default function App() {
         <span>Total playtime: 0s</span>
       </footer>
 
-      {dialog === "download" && <DownloadDialog onClose={() => setDialog(null)} />}
+      {dialog === "download" && (
+        <DownloadDialog onClose={() => setDialog(null)} />
+      )}
       {dialog === "guide" && <GuideDialog onClose={() => setDialog(null)} />}
-      {dialog === "settings" && <SettingsDialog onClose={() => setDialog(null)} />}
-      {dialog === "edit" && selected && <EditDialog game={selected} onClose={() => setDialog(null)} />}
+      {dialog === "settings" && (
+        <SettingsDialog onClose={() => setDialog(null)} />
+      )}
+      {dialog === "edit" && selected && (
+        <EditDialog game={selected} onClose={() => setDialog(null)} />
+      )}
     </div>
   );
 }
