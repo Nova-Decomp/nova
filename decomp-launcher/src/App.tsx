@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import "./App.css";
-import { ToolbarButton, ToolbarMenu } from "@/components/toolbar";
+import { ToolbarButton, ToolbarMenu } from "@/components/Toolbar";
 import { getGames } from "@/data/catalog";
 import {
   DownloadDialog,

@@ -1,4 +1,4 @@
-import { Modal } from "@/components/modal";
+import { Modal } from "@/components/Modal";
 import { getGames, getMods } from "@/data/catalog";
 import { noop } from "@/lib/noop";
 import type { Game } from "@/types";
