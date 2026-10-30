@@ -1,7 +1,7 @@
 export type Game = {
   id: string;
   name: string;
-  platform: string; // original platform, e.g. "Nintendo 64"
+  platform: string; 
   description: string;
   installed: boolean;
   version?: string;
