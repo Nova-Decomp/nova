@@ -1,0 +1,4312 @@
+{
+  "generatedAt": "2026-11-02T18:12:46.942Z",
+  "entries": [
+    {
+      "id": "revivedx--savagewindrecomp",
+      "name": "Breath of the Wild: Savage Wind",
+      "repo": "Revivedx/SavageWindRecomp",
+      "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.9.0) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
+      "stars": 2851,
+      "latestTag": "v0.4.1-alpha.4",
+      "prerelease": true,
+      "publishedAt": "2026-11-01T06:24:52Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "setup": {
+        "type": "extract-tool",
+        "requires": "Your own BotW game data, version 1.8.2, dumped from your Switch",
+        "guide": [
+          "Dump your own copy of Breath of the Wild (v1.8.2) from your Switch.",
+          "Select the game data folder below.",
+          "The launcher runs the project's configuration tool to prepare the game. This can take a long time on first run."
+        ]
+      },
+      "reviewed": true
+    },
+    {
+      "id": "zelda64recomp--zelda64recomp",
+      "name": "Zelda64Recomp",
+      "repo": "Zelda64Recomp/Zelda64Recomp",
+      "description": "Static recompilation of Majora's Mask (and soon Ocarina of Time) for PC (Windows/Linux/Mac)",
+      "stars": 7581,
+      "latestTag": "v1.2.2",
+      "prerelease": false,
+      "publishedAt": "2025-08-27T00:58:35Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "valentderah--totk-pc-recomp",
+      "name": "totk-pc-recomp",
+      "repo": "valentderah/totk-pc-recomp",
+      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+      "stars": 3838,
+      "latestTag": "v0.3.4",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T15:59:28Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "opendriver2--redriver2",
+      "name": "REDRIVER2",
+      "repo": "OpenDriver2/REDRIVER2",
+      "description": "Driver 2 Playstation game reverse engineering effort",
+      "stars": 1446,
+      "latestTag": "8.0",
+      "prerelease": true,
+      "publishedAt": "2026-07-02T07:38:45Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "wheremyfoodat--panda3ds",
+      "name": "Panda3DS",
+      "repo": "wheremyfoodat/Panda3DS",
+      "description": "HLE 3DS emulator",
+      "stars": 1416,
+      "latestTag": "v0.9",
+      "prerelease": false,
+      "publishedAt": "2024-12-25T13:32:34Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "vector35--binaryninja-api",
+      "name": "binaryninja-api",
+      "repo": "Vector35/binaryninja-api",
+      "description": "Public API, examples, documentation and issues for Binary Ninja",
+      "stars": 1332,
+      "latestTag": "stable/6.0.10905",
+      "prerelease": false,
+      "publishedAt": "2026-10-20T20:14:35Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "arcanite24--pinyon-shift",
+      "name": "pinyon-shift",
+      "repo": "arcanite24/pinyon-shift",
+      "description": "A playable preview of Forza Horizon static recompilation",
+      "stars": 984,
+      "latestTag": "v0.7.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-28T01:23:07Z",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "noelo-lab--kuna",
+      "name": "kuna",
+      "repo": "Noelo-Lab/kuna",
+      "description": "An agent-first decompiler designed to be refined by other agents. Kuna is written in Rust and was originally ported from Ghidra.",
+      "stars": 785,
+      "latestTag": "v1.989",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T15:01:06Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "odrannnn--metroidprimeport",
+      "name": "MetroidPrimePort",
+      "repo": "Odrannnn/MetroidPrimePort",
+      "description": "Native port of Metroid Prime (GameCube) for Linux, Windows and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
+      "stars": 626,
+      "latestTag": "v0.38.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T22:55:51Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "kuraeow--ultratears",
+      "name": "ultratears",
+      "repo": "kuraeow/ultratears",
+      "description": "Unofficial native Windows port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
+      "stars": 618,
+      "latestTag": "v0.2.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T20:53:37Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "encounter--objdiff",
+      "name": "objdiff",
+      "repo": "encounter/objdiff",
+      "description": "A local diffing tool for decompilation projects",
+      "stars": 617,
+      "latestTag": "v3.8.3",
+      "prerelease": false,
+      "publishedAt": "2026-10-19T20:29:18Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "speedbreakerproject--speedbreaker",
+      "name": "speedbreaker",
+      "repo": "SpeedBreakerProject/speedbreaker",
+      "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
+      "stars": 585,
+      "latestTag": "v0.2.1-test-issue67b",
+      "prerelease": true,
+      "publishedAt": "2026-11-02T14:36:27Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "teamgdb--yakumo",
+      "name": "Yakumo",
+      "repo": "TeamGDB/Yakumo",
+      "description": "Static recompilation of a PSP game into a native executable. Vulkan and SDL3. Bring your own copy of the game.",
+      "stars": 565,
+      "latestTag": "v0.7.5",
+      "prerelease": false,
+      "publishedAt": "2026-10-13T03:23:39Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nathanialf--ico-pc",
+      "name": "ico-pc",
+      "repo": "nathanialf/ico-pc",
+      "description": "PC, Android, iOS and macOS port of the ICO (PS2) decompilation (nathanialf/ico): Windows, Linux, Steam Deck, Android, iPhone via LiveContainer and Apple-silicon Mac (contributed). Contains no game data.",
+      "stars": 492,
+      "latestTag": "v0.9.7",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T06:12:01Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "samuelit0davila--fifa-street-pc-port",
+      "name": "fifa-street-pc-port",
+      "repo": "samuelit0davila/fifa-street-pc-port",
+      "description": "ReStreet: FIFA Street (2012) recompiled for Windows PC, with online play, a launcher with friends, chat and rooms. Bring your own game.",
+      "stars": 476,
+      "latestTag": "v2.1.4-online-beta",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T22:24:23Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "aliveteam--alive_reversing",
+      "name": "alive_reversing",
+      "repo": "AliveTeam/alive_reversing",
+      "description": "Re-implementation of Oddworld: Abe's Exoddus and Oddworld: Abe's Oddysee",
+      "stars": 450,
+      "latestTag": "github-v1.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-26T12:14:22Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "ctr-tools--ctr-native",
+      "name": "ctr-native",
+      "repo": "CTR-tools/ctr-native",
+      "description": "A Crash Team Racing Decompilation Project",
+      "stars": 432,
+      "latestTag": "beta-7.1",
+      "prerelease": true,
+      "publishedAt": "2026-07-07T08:11:52Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "ejfkdev--ddc",
+      "name": "ddc",
+      "repo": "ejfkdev/ddc",
+      "description": "Android DEX → Java decompiler in Rust — quality-first: javac-verified output, exact semantic-preserving simplification (cure), full apps in seconds, queries in milliseconds.",
+      "stars": 427,
+      "latestTag": "v0.1.35",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T07:52:05Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "codemerx--codemerxdecompile",
+      "name": "CodemerxDecompile",
+      "repo": "codemerx/CodemerxDecompile",
+      "description": "The first standalone .NET decompiler for Mac, Linux and Windows",
+      "stars": 401,
+      "latestTag": "1.5.0",
+      "prerelease": false,
+      "publishedAt": "2024-11-18T16:41:25Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "fh1-reimagined--forzahorizon1-reimagined",
+      "name": "ForzaHorizon1-ReImagined",
+      "repo": "FH1-ReImagined/ForzaHorizon1-ReImagined",
+      "description": "The 2012 Forza Horizon, native on Windows and Linux, and online again: Horizon World, leaderboards and Rivals on a public server you can also self-host. Bring your own copy.",
+      "stars": 385,
+      "latestTag": "v0.2.4",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T23:49:54Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "murkantor--project-midas",
+      "name": "Project-Midas",
+      "repo": "murkantor/Project-Midas",
+      "description": "PC port of GE for Windows and Linux, built from the N64 decompilation. Widescreen, mouse look, modern controller support and in-game settings. Co-op, netplay and mods in development.",
+      "stars": 382,
+      "latestTag": "1.0.2b",
+      "prerelease": true,
+      "publishedAt": "2026-10-23T10:15:03Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "theclub654--projectcane",
+      "name": "ProjectCane",
+      "repo": "theclub654/ProjectCane",
+      "description": "A playable PC port of Sly Cooper and the Thievius Raccoonus, rebuilt through reverse engineering.",
+      "stars": 354,
+      "latestTag": "decompilation",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T07:59:36Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "klorfmorf--goemon64recomp",
+      "name": "Goemon64Recomp",
+      "repo": "klorfmorf/Goemon64Recomp",
+      "description": "An unofficial PC port of Mystical Ninja Starring Goemon achieved via static recompilation.",
+      "stars": 333,
+      "latestTag": "v0.2.0-dev",
+      "prerelease": false,
+      "publishedAt": "2026-01-31T15:40:34Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "encounter--decomp-toolkit",
+      "name": "decomp-toolkit",
+      "repo": "encounter/decomp-toolkit",
+      "description": "A GameCube & Wii decompilation toolkit",
+      "stars": 324,
+      "latestTag": "v1.8.4",
+      "prerelease": false,
+      "publishedAt": "2026-09-09T07:00:03Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "ryderclanky--botw-native",
+      "name": "BotW-Native",
+      "repo": "ryderclanky/BotW-Native",
+      "description": "Breath of the Wild (Wii U, v1.5.0) statically recompiled to a native Windows program with a Vulkan renderer. ",
+      "stars": 318,
+      "latestTag": "v0.1.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T12:47:41Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jkdansereau--goldeneye-pc-port",
+      "name": "goldeneye-pc-port",
+      "repo": "jkdansereau/goldeneye-pc-port",
+      "description": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard or controller, and split-screen. Not an emulator.",
+      "stars": 300,
+      "latestTag": "v0.5.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-07T15:42:22Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "psxrestore--condemned2recomp",
+      "name": "Condemned2Recomp",
+      "repo": "psxrestore/Condemned2Recomp",
+      "description": "A static recompilation of Condemned 2: Bloodshot done with RexGlue.",
+      "stars": 288,
+      "latestTag": "0.5.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-27T06:20:34Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nbauma109--jd-gui-duo",
+      "name": "jd-gui-duo",
+      "repo": "nbauma109/jd-gui-duo",
+      "description": "A multi-decompiler standalone desktop GUI supporting JD-Core V0 & V1, CFR, Procyon, Fernflower, Vineflower & Jadx",
+      "stars": 267,
+      "latestTag": "2.0.116",
+      "prerelease": false,
+      "publishedAt": "2026-10-26T07:39:43Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "raulzrrs--letsgo-recomp",
+      "name": "letsgo-recomp",
+      "repo": "raulzrrs/letsgo-recomp",
+      "description": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
+      "stars": 255,
+      "latestTag": "v0.7.6",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T14:22:22Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "gamboozino--ngbrecomp",
+      "name": "ngbrecomp",
+      "repo": "gamboozino/ngbrecomp",
+      "description": "Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
+      "stars": 249,
+      "latestTag": "v0.9.53",
+      "prerelease": true,
+      "publishedAt": "2026-11-02T02:50:55Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "norain211--doaxvb-re",
+      "name": "doaxvb-re",
+      "repo": "NoRain211/doaxvb-re",
+      "description": "Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+      "stars": 238,
+      "latestTag": "v0.6.1",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T17:57:11Z",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "yokimitsuro--khdays-port",
+      "name": "khdays-port",
+      "repo": "Yokimitsuro/khdays-port",
+      "description": "Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
+      "stars": 225,
+      "latestTag": "v0.1.4",
+      "prerelease": false,
+      "publishedAt": "2026-10-23T15:37:57Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "centollos--switchwakerhd",
+      "name": "SwitchWakerHD",
+      "repo": "centollOS/SwitchWakerHD",
+      "description": "Wind Waker HD (Wii U) static recompilation for Nintendo Switch, deko3d renderer. Requires your own game dump.",
+      "stars": 220,
+      "latestTag": "v1.0.1-rc.1",
+      "prerelease": true,
+      "publishedAt": "2026-11-02T16:15:59Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "odrannnn--metroidprime2port",
+      "name": "MetroidPrime2Port",
+      "repo": "Odrannnn/MetroidPrime2Port",
+      "description": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
+      "stars": 219,
+      "latestTag": "v0.8.1",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T06:39:53Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "dabdavis--perfect-dark-dabs-mod",
+      "name": "perfect-dark-dabs-mod",
+      "repo": "DabDavis/perfect-dark-dabs-mod",
+      "description": "Perfect Dark PC port fork: jump, combat roll, melee combos, third person, 80 simulants, spectator camera, screenshots and video recording. Bring your own ROM.",
+      "stars": 212,
+      "latestTag": "v3.15.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T01:00:10Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "vyanhursky--defjamffny-recomp",
+      "name": "DefJamFFNY-recomp",
+      "repo": "vyanhursky/DefJamFFNY-recomp",
+      "description": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
+      "stars": 211,
+      "latestTag": "v0.13.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T15:36:01Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jorge262007--fftarecomp",
+      "name": "FFTARecomp",
+      "repo": "Jorge262007/FFTARecomp",
+      "description": "Native Windows port of Final Fantasy Tactics Advance with widescreen, video/audio options and a one-click installer.",
+      "stars": 208,
+      "latestTag": "3.1",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T18:36:55Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "griches--eternaldarknessrecomp",
+      "name": "EternalDarknessRecomp",
+      "repo": "griches/EternalDarknessRecomp",
+      "description": "Eternal Darkness: Sanity's Requiem static recompilation (DolRecomp + GXRuntime) for Mac, Windows and Linux / Steam Deck. Bring your own disc.",
+      "stars": 190,
+      "latestTag": "v0.9.6",
+      "prerelease": false,
+      "publishedAt": "2026-10-24T20:35:29Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "littlebitua--dprecomp",
+      "name": "DPRecomp",
+      "repo": "LittleBitUA/DPRecomp",
+      "description": "Deadly Premonition (Xbox 360) native PC port by static recompilation - v2.0.14: native DirectX 12 renderer ready for testing (up to 4x internal resolution); 60 FPS, mouse look, keyboard driving, FSR 3, ISO installer, PAL + USA",
+      "stars": 181,
+      "latestTag": "v2.0.14",
+      "prerelease": false,
+      "publishedAt": "2026-10-03T19:32:08Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "daniel-madrid-07--weeping-of-the-empire",
+      "name": "weeping-of-the-empire",
+      "repo": "daniel-madrid-07/weeping-of-the-empire",
+      "description": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
+      "stars": 181,
+      "latestTag": "v0.1.7",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T13:43:39Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "vnnc1--gow-native-pc",
+      "name": "gow-native-pc",
+      "repo": "Vnnc1/gow-native-pc",
+      "description": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
+      "stars": 171,
+      "latestTag": "v0.4.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T02:39:25Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "paulcombal--mw2-recompiled",
+      "name": "mw2-recompiled",
+      "repo": "PaulCombal/mw2-recompiled",
+      "description": "Call of Duty: Modern Warfare 2 (2009) for Xbox 360 recompiled for Windows & Linux",
+      "stars": 170,
+      "latestTag": "v0.8.3",
+      "prerelease": true,
+      "publishedAt": "2026-10-31T13:02:08Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--redalert2-recomp",
+      "name": "redalert2-recomp",
+      "repo": "sp00nznet/redalert2-recomp",
+      "description": "Static recompilation of Command & Conquer: Red Alert 2 / Yuri's Revenge (Westwood, 2000-01) to native C, with the remaster the engine never got: a D3D11 presenter, 720p to 4K, HD voxel units. Built on pcrecomp.",
+      "stars": 166,
+      "latestTag": "v0.1.3",
+      "prerelease": false,
+      "publishedAt": "2026-10-27T01:29:41Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "dahsidiabdallah--conkerbfdreloaded",
+      "name": "ConkerBFDReloaded",
+      "repo": "DahSidiAbdallah/ConkerBFDReloaded",
+      "description": "Conker's Bad Fur Day running natively on PC: an N64 recompilation with a Classic mode true to the N64 and a Modern mode (widescreen, smooth frame rate, free camera).",
+      "stars": 163,
+      "latestTag": "v1.4.7",
+      "prerelease": false,
+      "publishedAt": "2026-10-28T11:28:09Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "opentestdriveunlimited--opentestdriveunlimited",
+      "name": "OpenTestDriveUnlimited",
+      "repo": "opentestdriveunlimited/OpenTestDriveUnlimited",
+      "description": "Open source port of Test Drive Unlimited (2006)",
+      "stars": 155,
+      "latestTag": "v0.1",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T06:28:16Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "unchiga--yugiohforbiddenmemoriesrecomp",
+      "name": "YuGiOhForbiddenMemoriesRecomp",
+      "repo": "Unchiga/YuGiOhForbiddenMemoriesRecomp",
+      "description": "Static recompilation of Yu-Gi-Oh! Forbidden Memories (PS1) into a native executable - with a live duel-rank meter, a fusion assistant, adjustable card drops and a cheat menu. Bring your own disc.",
+      "stars": 149,
+      "latestTag": "v0.6.2",
+      "prerelease": false,
+      "publishedAt": "2026-09-20T04:49:40Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "santiquiroz--gears-of-war-2-pc-port",
+      "name": "gears-of-war-2-pc-port",
+      "repo": "santiquiroz/gears-of-war-2-pc-port",
+      "description": "Gears of War 2 native PC port: the Xbox 360 game statically recompiled to x64 (not an emulator). 1440p/4K, FSR, 4K texture packs, keyboard & mouse, Android in progress. Bring your own copy.",
+      "stars": 143,
+      "latestTag": "v0.3.12",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T14:41:12Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tmcleroy--cps2recomp",
+      "name": "cps2recomp",
+      "repo": "tmcleroy/cps2recomp",
+      "description": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
+      "stars": 142,
+      "latestTag": "v1.2.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T00:23:41Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "alexbeav--fm4-recomp",
+      "name": "fm4-recomp",
+      "repo": "Alexbeav/fm4-recomp",
+      "description": "Experimental static recompilation of Forza Motorsport 4 using ReXGlue. No game files included.",
+      "stars": 141,
+      "latestTag": "v0.1.0-alpha.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-15T19:50:44Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "spacefarergames--aloneinthedarkrehaunted",
+      "name": "AloneInTheDarkReHaunted",
+      "repo": "spacefarergames/AloneInTheDarkReHaunted",
+      "description": "A heavily enhanced port and dynamic recomp of Alone In The Dark 1, with Textured Models, HD-4K background replacements, QOL improvements, controller support and so much more.",
+      "stars": 139,
+      "latestTag": "2.5.0.0110",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T14:57:32Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "2003scape--rsc-c",
+      "name": "rsc-c",
+      "repo": "2003scape/rsc-c",
+      "description": "🍫 runescape classic client ported to C",
+      "stars": 136,
+      "latestTag": "mudclient177-rev1",
+      "prerelease": false,
+      "publishedAt": "2022-04-01T04:16:20Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "gizcesi--opentricky",
+      "name": "OpenTricky",
+      "repo": "GiZcesi/OpenTricky",
+      "description": "OpenTricky is an unofficial PC port of SSX Tricky, made by static recompilation. Bring your own disc.",
+      "stars": 134,
+      "latestTag": "v0.1.5",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T16:51:07Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "invinceble55-wq--estacado-the-darkness-recomp",
+      "name": "Estacado-The-Darkness-Recomp",
+      "repo": "invinceble55-wq/Estacado-The-Darkness-Recomp",
+      "description": "Estacado: a native PC recompilation of The Darkness (Xbox 360). Unofficial fan port; bring your own copy of the game.",
+      "stars": 132,
+      "latestTag": "v0.9.8",
+      "prerelease": true,
+      "publishedAt": "2026-10-12T13:06:06Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "bigmak94--galaxyquest",
+      "name": "GalaxyQuest",
+      "repo": "bigmak94/GalaxyQuest",
+      "description": "GalaxyQuest: Super Mario Galaxy in VR on Meta Quest 3, a native port built on the Petari decompilation. Bring your own game files. 100% made by AI (Claude Opus 5.5 in Claude Code).",
+      "stars": 127,
+      "latestTag": "v0.1.9",
+      "prerelease": false,
+      "publishedAt": "2026-10-19T21:08:19Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jackandbeans--snap64recomp",
+      "name": "Snap64Recomp",
+      "repo": "JackandBeans/Snap64Recomp",
+      "description": "Native Windows, Linux and macOS port of Pokémon Snap (N64) by static recompilation. Plays like the cartridge by default; every enhancement is opt-in. Bring your own dump; no game data is included.",
+      "stars": 127,
+      "latestTag": "v1.1.6",
+      "prerelease": false,
+      "publishedAt": "2026-10-23T19:35:15Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "omarma--tekken3-expanded",
+      "name": "tekken3-expanded",
+      "repo": "omarma/tekken3-expanded",
+      "description": "The 18 Tekken Tag Tournament characters in Tekken 3: playable in every mode and fought by the CPU. Tekken 3's cast can use their TTT movesets. Built from your own Tekken 3 disc and arcade ROMs.",
+      "stars": 124,
+      "latestTag": "v1.4.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T00:59:41Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "chupathingyce--chupathingyce",
+      "name": "chupathingyce",
+      "repo": "ChupathingyCE/chupathingyce",
+      "description": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
+      "stars": 122,
+      "latestTag": "nightly",
+      "prerelease": true,
+      "publishedAt": "2026-10-31T10:24:50Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "skuza-oss--downhill-revived",
+      "name": "downhill-revived",
+      "repo": "skuza-oss/downhill-revived",
+      "description": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
+      "stars": 122,
+      "latestTag": "v0.7.7",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T09:32:44Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mg1937--rust_asc",
+      "name": "rust_ASC",
+      "repo": "MG1937/rust_ASC",
+      "description": "Rust ASC is a super FAST and lightweight Android decompiler designed for Agents/Mobile Researchers.",
+      "stars": 121,
+      "latestTag": "v0.1.2-post1",
+      "prerelease": false,
+      "publishedAt": "2026-10-28T07:13:56Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "iexplosiverage--dbz-burst-limit-recompiled",
+      "name": "DBZ-Burst-Limit-Recompiled",
+      "repo": "iExplosiveRage/DBZ-Burst-Limit-Recompiled",
+      "description": "Dragon Ball Z: Burst Limit Recompiled - native PC port via ReXGlue static recompilation",
+      "stars": 119,
+      "latestTag": "v0.7.3-alpha",
+      "prerelease": false,
+      "publishedAt": "2026-10-27T13:51:29Z",
+      "platforms": [
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "alexbeavs-ps1-ports--psxrecomp-ports",
+      "name": "psxrecomp-ports",
+      "repo": "alexbeavs-ps1-ports/psxrecomp-ports",
+      "description": "Unofficial noncommercial PlayStation recompilation releases",
+      "stars": 118,
+      "latestTag": "v0.3.4",
+      "prerelease": false,
+      "publishedAt": "2026-09-02T18:20:07Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sonicfreak1337--sarecomp",
+      "name": "SARecomp",
+      "repo": "sonicfreak1337/SARecomp",
+      "description": "A fully playable, work-in-progress native Sonic Adventure port for Windows, Linux and Steam Deck. Powered by KatanaRecomp.",
+      "stars": 116,
+      "latestTag": "v0.52.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-18T20:12:45Z",
+      "platforms": [
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "badcompany94-rcmp--project-tandem",
+      "name": "project-tandem",
+      "repo": "badcompany94-rcmp/project-tandem",
+      "description": "Play Mario Kart: Double Dash!! online on Windows. Project Tandem is a native PC recompilation with 2-8 player solo/shared-kart multiplayer, widescreen, and mouse/keyboard controls. Requires your own compatible USA disc image.",
+      "stars": 115,
+      "latestTag": "v0.1.0-beta.11",
+      "prerelease": true,
+      "publishedAt": "2026-11-02T16:54:49Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "cdlewis--snowboardkids2-recomp",
+      "name": "snowboardkids2-recomp",
+      "repo": "cdlewis/snowboardkids2-recomp",
+      "description": "Snowboard Kids 2 for PC (Windows/Linux/MacOS)",
+      "stars": 114,
+      "latestTag": "v2.0.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-17T21:17:34Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nycolazs--windwakerhd-android-plus",
+      "name": "WindWakerHD-Android-Plus",
+      "repo": "Nycolazs/WindWakerHD-Android-Plus",
+      "description": "The Legend of Zelda: The Wind Waker HD natively on Android (static recompilation, Vulkan). Built-in Brazilian Portuguese translation, HUD editor, .wua support, controller gyro, and more. Bring your own game.",
+      "stars": 113,
+      "latestTag": "v1.14",
+      "prerelease": false,
+      "publishedAt": "2026-10-23T10:43:35Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "wivi514--dead_rising_2_case_zero_xenon_recomp",
+      "name": "Dead_Rising_2_Case_Zero_Xenon_Recomp",
+      "repo": "wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp",
+      "description": "Native PC port of the Xbox 360 XBLA game Dead Rising 2: Case Zero, by static recompilation. Windows and Linux, Vulkan, keyboard/mouse and controller. You supply your own copy of the game.",
+      "stars": 110,
+      "latestTag": "v1.1.3",
+      "prerelease": false,
+      "publishedAt": "2026-10-14T05:12:20Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "saulob--crackdown-xbox360-recompiled",
+      "name": "crackdown-xbox360-recompiled",
+      "repo": "saulob/crackdown-xbox360-recompiled",
+      "description": "Crackdown native PC port via static recompilation, with high frame rates, 4K rendering, ultrawide support, offline achievements, language selection, TRG launcher, and experimental Linux/Steam Deck support",
+      "stars": 108,
+      "latestTag": "v0.6.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-25T17:23:52Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "wivi514--dead_rising_2_case_west_xenon_recomp",
+      "name": "Dead_Rising_2_Case_West_Xenon_Recomp",
+      "repo": "wivi514/Dead_Rising_2_Case_West_Xenon_Recomp",
+      "description": "Native PC port of the Xbox 360 XBLA game Dead Rising 2: Case West, by static recompilation. Windows and Linux, Vulkan, keyboard/mouse and controller. You supply your own copy of the game.",
+      "stars": 107,
+      "latestTag": "v1.1.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-14T07:58:21Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "pablocpas--opencmr2",
+      "name": "OpenCMR2",
+      "repo": "pablocpas/OpenCMR2",
+      "description": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
+      "stars": 106,
+      "latestTag": "v1.8.3",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T12:46:33Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "yuutatsubasa--free-riders-recompiled",
+      "name": "Free-Riders-Recompiled",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "description": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
+      "stars": 105,
+      "latestTag": "v0.10.42",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T21:03:43Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nikolaygorb--armyoftworecomp",
+      "name": "ArmyOfTwoRecomp",
+      "repo": "nikolaygorb/ArmyOfTwoRecomp",
+      "description": "Army of Two (Army of 2) 2008 [Xbox360] game static recompilation project based on RexGlue-SDK",
+      "stars": 103,
+      "latestTag": "1.4",
+      "prerelease": false,
+      "publishedAt": "2026-10-27T08:26:21Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "some-scurvy-dog--banjo-tooie-scurvy-dog-port",
+      "name": "banjo-tooie-scurvy-dog-port",
+      "repo": "some-scurvy-dog/banjo-tooie-scurvy-dog-port",
+      "description": "Banjo-Tooie Scurvy Dog Port: a static PC recompilation of Banjo-Tooie. **Not affiliated with the Banjo: Recompiled team**",
+      "stars": 102,
+      "latestTag": "v0.1.0-alpha.4.5",
+      "prerelease": true,
+      "publishedAt": "2026-10-27T15:34:53Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "giopixelgh--crash-twinsanity-windows",
+      "name": "Crash-Twinsanity-Windows",
+      "repo": "GioPixelGH/Crash-Twinsanity-Windows",
+      "description": "Crash Twinsanity (PS2, PAL) running natively on Windows, played through to the credits: a Windows port of HAB3X's Mac port of Smartkin's C++ decompilation. No game data included: bring your own disc image.",
+      "stars": 101,
+      "latestTag": "v1.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T22:51:07Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "parkerallan--doa3-recomp",
+      "name": "doa3-recomp",
+      "repo": "parkerallan/doa3-recomp",
+      "description": "Dead or Alive 3 PC Port ",
+      "stars": 101,
+      "latestTag": "v1.0.7",
+      "prerelease": false,
+      "publishedAt": "2026-10-24T02:14:46Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "undecuple--project-helghast",
+      "name": "project-helghast",
+      "repo": "undecuple/project-helghast",
+      "description": "Killzone 3 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "stars": 98,
+      "latestTag": "v0.1.7",
+      "prerelease": true,
+      "publishedAt": "2026-10-29T21:23:23Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "norain211--doa2u-re",
+      "name": "doa2u-re",
+      "repo": "NoRain211/doa2u-re",
+      "description": "Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+      "stars": 93,
+      "latestTag": "v0.1.14",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T16:38:39Z",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "undecuple--project-pyrrhus",
+      "name": "project-pyrrhus",
+      "repo": "undecuple/project-pyrrhus",
+      "description": "Killzone 2 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "stars": 91,
+      "latestTag": "v0.1.6",
+      "prerelease": true,
+      "publishedAt": "2026-10-30T15:08:30Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "petexy--tekken-tag-2-ultimate-edition",
+      "name": "Tekken-Tag-2-Ultimate-Edition",
+      "repo": "Petexy/Tekken-Tag-2-Ultimate-Edition",
+      "description": "Native port of Tekken Tag Tournament 2 Wii U Edition by static recompilation with the possibility to add new characters and mod the game easily. No files included.",
+      "stars": 91,
+      "latestTag": "v0.5.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T03:54:53Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "andrebrumdev--gow2-recomp",
+      "name": "gow2-recomp",
+      "repo": "andrebrumdev/gow2-recomp",
+      "description": "God of War II HD static recompilation — curated work artifacts (lift boundaries, SPU lift sources, scripts, findings). Game data & build artifacts excluded.",
+      "stars": 90,
+      "latestTag": "kit-macos-20260930",
+      "prerelease": false,
+      "publishedAt": "2026-09-30T19:28:53Z",
+      "platforms": [
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "saulob--marvel-ultimate-alliance-bundle-recompiled",
+      "name": "marvel-ultimate-alliance-bundle-recompiled",
+      "repo": "saulob/marvel-ultimate-alliance-bundle-recompiled",
+      "description": "Marvel Ultimate Alliance 1, Gold Edition and 2 native PC ports via static recompilation, in one bundle with high frame rates, 4K rendering, ultrawide, HD Text, TRG launcher, and experimental Linux/Steam Deck support",
+      "stars": 90,
+      "latestTag": "v0.2.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T03:38:46Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "lifting-bits--patchestry",
+      "name": "patchestry",
+      "repo": "lifting-bits/patchestry",
+      "description": "Patchestry is a binary patching framework built with MLIR and Ghidra.",
+      "stars": 89,
+      "latestTag": "4acddb4-175",
+      "prerelease": true,
+      "publishedAt": "2026-06-12T14:24:21Z",
+      "platforms": [
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "saulob--ssf2t-hd-remix-recompiled",
+      "name": "ssf2t-hd-remix-recompiled",
+      "repo": "saulob/ssf2t-hd-remix-recompiled",
+      "description": "Super Street Fighter II Turbo HD Remix native PC port via static recompilation, with TRG launcher, local achievements and experimental Linux support",
+      "stars": 89,
+      "latestTag": "v0.3.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T06:07:03Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "novapowers0--bloodyroar2recomp",
+      "name": "BloodyRoar2Recomp",
+      "repo": "novapowers0/BloodyRoar2Recomp",
+      "description": "PSX recompilation of Bloody Roar II (SLES-01722 EU / SCUS-94424 USA). Anti-copyright: bring your own disc. Dual-region builds, from-scratch widescreen + curated mods.",
+      "stars": 88,
+      "latestTag": "v0.7.1",
+      "prerelease": false,
+      "publishedAt": "2026-09-26T09:39:14Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mabec-games--conker-recomped-and-reloaded",
+      "name": "Conker-Recomped-and-Reloaded",
+      "repo": "Mabec-games/Conker-Recomped-and-Reloaded",
+      "description": "Conker: Live & Reloaded (Xbox) on Windows & Linux: a native recompilation with a launcher that builds it from your own disc, widescreen up to 240 FPS, enhancements, and online play with room codes.",
+      "stars": 86,
+      "latestTag": "v1.2",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T13:37:31Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mr-finster--vf2-recomp",
+      "name": "vf2-recomp",
+      "repo": "mr-finster/vf2-recomp",
+      "description": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
+      "stars": 84,
+      "latestTag": "v0.1.17",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T10:11:42Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "hossez--fifa-world-cup-2014-recompiled",
+      "name": "fifa-world-cup-2014-recompiled",
+      "repo": "HossEz/fifa-world-cup-2014-recompiled",
+      "description": "2014 FIFA World Cup Brazil (Xbox 360) running natively on Windows. An unofficial recompilation, played from your own copy of the game.",
+      "stars": 83,
+      "latestTag": "v0.2.1",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T20:28:12Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "cor3duo--kirikae",
+      "name": "kirikae",
+      "repo": "Cor3Duo/kirikae",
+      "description": "Static recompiler that turns Nintendo Switch executables into native PC programs, written in Rust.",
+      "stars": 83,
+      "latestTag": "v0.1.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-24T23:09:34Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "christianortel--skate2-recompile-pc",
+      "name": "skate2-recompile-pc",
+      "repo": "christianortel/skate2-recompile-pc",
+      "description": "Community Windows PC port of Skate 2, built with ReXGlue. Controller support, adjustable rendering quality, and unlocked FPS. Original game files required.",
+      "stars": 81,
+      "latestTag": "v0.1.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-12T15:22:21Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "abedegno--underworld-exhumed",
+      "name": "underworld-exhumed",
+      "repo": "abedegno/underworld-exhumed",
+      "description": "Underworld Exhumed: Ultima Underworld I and II as byte-matching source code and native ports for macOS, Windows and Linux",
+      "stars": 78,
+      "latestTag": "uw2-v1.2.3",
+      "prerelease": false,
+      "publishedAt": "2026-10-14T17:03:23Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mr-finster--vf3-recomp",
+      "name": "vf3-recomp",
+      "repo": "mr-finster/vf3-recomp",
+      "description": "Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf3.zip.",
+      "stars": 77,
+      "latestTag": "v0.1.15-alpha",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T11:56:41Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mr-finster--vf1-recomp",
+      "name": "vf1-recomp",
+      "repo": "mr-finster/vf1-recomp",
+      "description": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
+      "stars": 75,
+      "latestTag": "v1.5.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T01:10:22Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "whylurking--isaacrecomp",
+      "name": "IsaacRecomp",
+      "repo": "whylurking/IsaacRecomp",
+      "description": "Native C++ recompilation of The Binding of Isaac (Flash) — 60 fps, 1080p, Windows/Linux/Switch. Requires the original game from Steam",
+      "stars": 74,
+      "latestTag": "v1.5.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T17:57:55Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nikolaygorb--perfectdarkzerorecomp",
+      "name": "PerfectDarkZeroRecomp",
+      "repo": "nikolaygorb/PerfectDarkZeroRecomp",
+      "description": "Perfect Dark Zero [Xbox360] game static recompilation project based on RexGlue-SDK",
+      "stars": 74,
+      "latestTag": "1.9",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T12:08:59Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--recomp-launcher",
+      "name": "recomp-launcher",
+      "repo": "sp00nznet/recomp-launcher",
+      "description": "The installer for a sp00nznet recomp: here's my game, Build, here's my recomp. One per game, built from its launcher.json; Windows, Linux, macOS.",
+      "stars": 73,
+      "latestTag": "v0.6.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T22:39:19Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "clickingmaster--pokeheartgold-single-screen",
+      "name": "pokeheartgold-single-screen",
+      "repo": "ClickingMaster/pokeheartgold-single-screen",
+      "description": "Single-screen decompilation build of Pokemon HeartGold/SoulSilver (pokeheartgold), the source for the ssrecomp single-screen recomp.",
+      "stars": 72,
+      "latestTag": "v0.1.4",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T22:33:42Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "saulob--geometry-wars-retro-evolved-2-recompiled",
+      "name": "geometry-wars-retro-evolved-2-recompiled",
+      "repo": "saulob/geometry-wars-retro-evolved-2-recompiled",
+      "description": "Geometry Wars: Retro Evolved 2 native PC port via static recompilation, with TRG launcher, high frame rates, local achievements and offline leaderboards",
+      "stars": 67,
+      "latestTag": "v0.6.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-25T18:56:40Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "saulob--hard-corps-uprising-recompiled",
+      "name": "hard-corps-uprising-recompiled",
+      "repo": "saulob/hard-corps-uprising-recompiled",
+      "description": "Hard Corps: Uprising native PC port via static recompilation, the Xbox 360 XBLA Contra spin-off, with TRG launcher",
+      "stars": 67,
+      "latestTag": "v0.7.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-25T22:17:04Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "flippage--gears-of-war-3-recomp",
+      "name": "gears-of-war-3-recomp",
+      "repo": "Flippage/gears-of-war-3-recomp",
+      "description": "Gears of War 3 (Xbox 360) statically recompiled to native Windows x64 with the ReXGlue SDK. Bring your own copy of the game; no game files are included.",
+      "stars": 66,
+      "latestTag": "v0.3.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T16:10:17Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nautaro--dbz-bt4-tag-team-decomp",
+      "name": "DBZ-BT4-Tag-Team-Decomp",
+      "repo": "NauTaro/DBZ-BT4-Tag-Team-Decomp",
+      "description": "Dragon Ball Z: Budokai Tenkaichi 4 Decomp for Windows, Linux and macOS. Based on Tenkaichi3Decomp!",
+      "stars": 63,
+      "latestTag": "v0.1.39.4-R1",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T04:39:48Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "yuutatsubasa--chaotixrecompiled",
+      "name": "ChaotixRecompiled",
+      "repo": "YuutaTsubasa/ChaotixRecompiled",
+      "description": "Static recompilation of the Sega 32X game Knuckles' Chaotix into native C++ (Windows/Linux/macOS/Android), with true widescreen. Bring your own ROM; no game data included.",
+      "stars": 62,
+      "latestTag": "v0.15.18",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T19:59:14Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mysteriousaeon--rayman3-hd-recompiled",
+      "name": "rayman3-hd-recompiled",
+      "repo": "MysteriousAeon/rayman3-hd-recompiled",
+      "description": "A native Windows port of Rayman 3 HD (Xbox 360) using static recompilation, with HD+ enhancements and Turkish localization.",
+      "stars": 62,
+      "latestTag": "v1.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T22:59:59Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nikolaygorb--wetrecomp",
+      "name": "WetRecomp",
+      "repo": "nikolaygorb/WetRecomp",
+      "description": "Wet [Xbox360] game static recompilation project based on RexGlue-SDK",
+      "stars": 61,
+      "latestTag": "1.5",
+      "prerelease": false,
+      "publishedAt": "2026-10-23T17:39:55Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "dogparty--ipodclickwheelrecomps",
+      "name": "iPodClickWheelRecomps",
+      "repo": "DogParty/iPodClickWheelRecomps",
+      "description": "An assortment of iPod Classic games that have been recompiled to run on modern systems",
+      "stars": 58,
+      "latestTag": "v1.0.1",
+      "prerelease": false,
+      "publishedAt": "2026-09-06T19:43:29Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "halmylyseas--vandalhearts-pcport",
+      "name": "VandalHearts-PcPort",
+      "repo": "HalmyLyseas/VandalHearts-PcPort",
+      "description": "Native PC port of the PlayStation game Vandal Hearts, built on a byte-exact matching decompilation. Windows & Linux; bring your own disc.",
+      "stars": 58,
+      "latestTag": "v2.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-08-31T01:08:42Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "maxevans60--cm0102-bosman-edition",
+      "name": "cm0102-bosman-edition",
+      "repo": "maxevans60/cm0102-bosman-edition",
+      "description": "Championship Manager 01/02 rebuilt to run natively on Mac, Windows, Linux and Steam Deck. Unofficial fan port.",
+      "stars": 56,
+      "latestTag": "v0.6.1",
+      "prerelease": true,
+      "publishedAt": "2026-10-30T09:59:25Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mango77x--mhforever",
+      "name": "MHForever",
+      "repo": "Mango77x/MHForever",
+      "description": "Unofficial native PC ports of the classic Monster Hunter games via static recompilation, starting with Freedom Unite. No emulator. Bring your own copy",
+      "stars": 56,
+      "latestTag": "v0.8.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T23:15:50Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "theokyr--project8recomp",
+      "name": "Project8Recomp",
+      "repo": "theokyr/Project8Recomp",
+      "description": "Native PC port of Tony Hawk's Project 8 (Xbox 360) by static recompilation.",
+      "stars": 54,
+      "latestTag": "v0.3.0",
+      "prerelease": false,
+      "publishedAt": "2026-08-24T13:53:28Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "maryncrt--ultimate-mortal-kombat-3-ios-decompiled",
+      "name": "Ultimate-Mortal-Kombat-3-iOS-Decompiled",
+      "repo": "MaryNCRT/Ultimate-Mortal-Kombat-3-iOS-Decompiled",
+      "description": "Decompiled Ultimate Mortal Kombat 3 (iOS v1.2.59) with a playable native PC port featuring DirectX, Vulkan, OpenGL, widescreen support, HD textures, and multiplayer. Original game assets required.",
+      "stars": 53,
+      "latestTag": "v0.1.23-beta",
+      "prerelease": true,
+      "publishedAt": "2026-10-31T14:49:56Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "n0zom1z0--th08",
+      "name": "th08",
+      "repo": "N0zoM1z0/th08",
+      "description": "Source reconstruction of 東方永夜抄 ～ Imperishable Night 1.00d",
+      "stars": 53,
+      "latestTag": "v0.2.1-linux-64bit",
+      "prerelease": false,
+      "publishedAt": "2026-09-19T01:50:59Z",
+      "platforms": [
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "shaneomac1337--wwe-allstars-recomp",
+      "name": "WWE-AllStars-Recomp",
+      "repo": "shaneomac1337/WWE-AllStars-Recomp",
+      "description": "Unofficial Windows version of WWE All Stars (Xbox 360), recompiled with ReXGlue. Bring your own disc image.",
+      "stars": 52,
+      "latestTag": "v1.7.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-25T17:42:47Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "ethteck--coddog",
+      "name": "coddog",
+      "repo": "ethteck/coddog",
+      "description": "Identify duplicate functions and portions of functions among one or more binaries",
+      "stars": 51,
+      "latestTag": "0.6.3",
+      "prerelease": false,
+      "publishedAt": "2026-03-28T00:07:24Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "n0madic--soulcalibur2hd-recomp",
+      "name": "Soulcalibur2HD-recomp",
+      "repo": "n0madic/Soulcalibur2HD-recomp",
+      "description": "Soulcalibur II HD native recompilation",
+      "stars": 51,
+      "latestTag": "v0.3.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-26T17:54:41Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nikolaygorb--perfectdarkremasterrecomp",
+      "name": "PerfectDarkRemasterRecomp",
+      "repo": "nikolaygorb/PerfectDarkRemasterRecomp",
+      "description": "Perfect Dark Remaster 2010 [Xbox360] game static recompilation project based on RexGlue-SDK",
+      "stars": 51,
+      "latestTag": "1.5",
+      "prerelease": false,
+      "publishedAt": "2026-10-23T18:22:55Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tanookistudios--decomp-buddy",
+      "name": "decomp-buddy",
+      "repo": "TanookiStudios/decomp-buddy",
+      "description": "Decomp Buddy: set up fan-made PC ports and decomps of your games from your own game files. Free, GPL-3.0. Downloads: https://decompbuddy.com",
+      "stars": 50,
+      "latestTag": "v0.32.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T13:06:01Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "doyagu--ballanced",
+      "name": "Ballanced",
+      "repo": "doyaGu/Ballanced",
+      "description": "The reversed code of Ballance.",
+      "stars": 49,
+      "latestTag": "v0.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-05-13T05:30:39Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "cruxxxxxx--gdx-3ds",
+      "name": "gdx-3ds",
+      "repo": "cruxxxxxx/gdx-3ds",
+      "description": "Unofficial 3DS Port of F-Zero X based on G-Diffuser & the decompilation of inspectredc",
+      "stars": 48,
+      "latestTag": "v1.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-27T02:35:52Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "alondero--automobililamborghini-recomp",
+      "name": "automobililamborghini-recomp",
+      "repo": "alondero/automobililamborghini-recomp",
+      "description": "Static Recompilation of Automobili Lamborghini for the N64",
+      "stars": 48,
+      "latestTag": "v0.10.3",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T03:26:17Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "juansolo457--fear360-recomp",
+      "name": "fear360-recomp",
+      "repo": "Juansolo457/fear360-recomp",
+      "description": "F.E.A.R. and F.E.A.R. Files (Xbox 360) statically recompiled to run natively on PC: 4K, 120 fps, Linux at 60fps+ Xbox 360 native resolution, controller-first. No game data included; bring your own discs.",
+      "stars": 48,
+      "latestTag": "v1.5.1",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T04:39:20Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mooncellar-team--glassline",
+      "name": "Glassline",
+      "repo": "MoonCellar-Team/Glassline",
+      "description": "Unofficial port of Mirror's Edge (iPad, 2010) to Linux, Windows, Steam Deck and Android",
+      "stars": 45,
+      "latestTag": "v1.4.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T05:40:02Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "decryptu--pokerecomp",
+      "name": "pokerecomp",
+      "repo": "Decryptu/pokerecomp",
+      "description": "A native Godot 4 reimplementation of the Gen 1 and 2 Game Boy Color games. Not an emulator, bring your own ROM.",
+      "stars": 45,
+      "latestTag": "v0.1.86",
+      "prerelease": false,
+      "publishedAt": "2026-10-27T10:43:57Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "fearkov--zakuro",
+      "name": "zakuro",
+      "repo": "fearkov/zakuro",
+      "description": "A Nintendo 3DS emulator in Rust, using AOT recompilation",
+      "stars": 45,
+      "latestTag": "v0.2.31",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T22:34:48Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "kittycache9--opensa2",
+      "name": "OpenSA2",
+      "repo": "kittycache9/OpenSA2",
+      "description": "A native Sonic Adventure 2 port by static recompilation for Linux, Windows, and Android. Experimental source preview.",
+      "stars": 45,
+      "latestTag": "v0.1.0-alpha.6.1",
+      "prerelease": true,
+      "publishedAt": "2026-11-02T00:15:29Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "lakshya16157--midtown-madness-3-pc-native",
+      "name": "midtown-madness-3-PC-Native",
+      "repo": "lakshya16157/midtown-madness-3-PC-Native",
+      "description": "Play Midtown Madness 3 natively on Windows 10/11: your resolution, widescreen, 60 fps, controller or keyboard, and optional mods. Get MM3-Setup.exe from Releases; you need your own copy of the Xbox game.",
+      "stars": 45,
+      "latestTag": "v2.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T05:08:04Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "konovalov-aleks--resl",
+      "name": "reSL",
+      "repo": "konovalov-aleks/reSL",
+      "description": "The reversed source code for ShortLine v1.1 game",
+      "stars": 44,
+      "latestTag": "release-1.1.3",
+      "prerelease": false,
+      "publishedAt": "2026-08-08T10:52:57Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "james2doyle--ffta-recomp",
+      "name": "ffta-recomp",
+      "repo": "james2doyle/ffta-recomp",
+      "description": "Native recompilation of Final Fantasy Tactics Advance with shaders, post-processing, haptics/rumble, and native Android support",
+      "stars": 44,
+      "latestTag": "v2.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-23T00:31:55Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "spacefarergames--ecstaticarecompiled",
+      "name": "EcstaticaRecompiled",
+      "repo": "spacefarergames/EcstaticaRecompiled",
+      "description": "This is a recomplimation and modern port of Ecstatica 1 and Ecstatica 2 that runs on modern Windows 10 / 11 systems flawlessly. Provides full HD support, modern game controller support with enhanced music and artwork.",
+      "stars": 43,
+      "latestTag": "1.0_Staging",
+      "prerelease": true,
+      "publishedAt": "2026-05-15T08:41:15Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "alondero--aerogauge-recomp",
+      "name": "aerogauge-recomp",
+      "repo": "alondero/aerogauge-recomp",
+      "description": "A static recompilation of AeroGauge for the Nintendo N64",
+      "stars": 43,
+      "latestTag": "v0.7.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-26T22:06:11Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jessetbh--wcwvsnwoworldtourrecomp",
+      "name": "WCWvsNWOWorldTourRecomp",
+      "repo": "jessetbh/WCWvsNWOWorldTourRecomp",
+      "description": "Native PC port of WCW vs. nWo World Tour (N64) via static recompilation. No game assets included — bring your own ROM.",
+      "stars": 43,
+      "latestTag": "v0.2.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-14T02:30:59Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jessetbh--wwfnomercyrecomp",
+      "name": "WWFNoMercyRecomp",
+      "repo": "jessetbh/WWFNoMercyRecomp",
+      "description": "Native PC port of WWF No Mercy (N64) via static recompilation. No game assets included — bring your own ROM.",
+      "stars": 43,
+      "latestTag": "v0.2.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-14T02:33:06Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "rages4calm--earthbound-companion",
+      "name": "earthbound-companion",
+      "repo": "rages4calm/earthbound-companion",
+      "description": "EarthBound Companion 1.0: native Windows port with Original and MaternalBound Redux, widescreen/4K, MSU music, controllers, Story Shuffle and 46 offline achievements. Linux, macOS and Android community previews. Bring your own clean USA ROM.",
+      "stars": 41,
+      "latestTag": "v1.0.17",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T02:21:45Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "noahvl--birdman64",
+      "name": "Birdman64",
+      "repo": "NoahVl/Birdman64",
+      "description": "Pilotwings 64 as a native PC game for Windows and Linux: widescreen, 144+ FPS, gamepads. Bring your own ROM, no emulator.",
+      "stars": 41,
+      "latestTag": "v1.5.2-pre1",
+      "prerelease": true,
+      "publishedAt": "2026-10-24T09:40:50Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "carlosexabyte--arceuszada",
+      "name": "Arceuszada",
+      "repo": "CarlosExabyte/Arceuszada",
+      "description": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!",
+      "stars": 39,
+      "latestTag": "v1.0.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T02:00:45Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "norain211--doa3-re",
+      "name": "doa3-re",
+      "repo": "NoRain211/doa3-re",
+      "description": "Native Windows port of Dead or Alive 3 (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+      "stars": 39,
+      "latestTag": "v0.5",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T06:16:31Z",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "speedbreakerproject--speedbreaker-carbon",
+      "name": "speedbreaker-carbon",
+      "repo": "SpeedBreakerProject/speedbreaker-carbon",
+      "description": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Carbon (2006): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac, plus a Windows beta (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
+      "stars": 37,
+      "latestTag": "v0.1.1",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T00:27:34Z",
+      "platforms": [
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mstan--dragonballzbuusfuryrecomp",
+      "name": "DragonBallZBuusFuryRecomp",
+      "repo": "mstan/DragonBallZBuusFuryRecomp",
+      "description": "Static recompilation of Dragon Ball Z: Buu's Fury with Adaptive Widescreen · Part of the R.A.I.D. community",
+      "stars": 37,
+      "latestTag": "v0.0.4",
+      "prerelease": false,
+      "publishedAt": "2026-10-18T20:21:27Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "ciphernovaa--twine-pc",
+      "name": "twine-pc",
+      "repo": "CipherNovaa/twine-pc",
+      "description": "A Fan Remake of the Original PlayStation Classic \"007: The World is Not Enough\"  ",
+      "stars": 35,
+      "latestTag": "v0.1.3",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T22:07:05Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "n0madic--starcraft64-recomp",
+      "name": "StarCraft64-recomp",
+      "repo": "n0madic/StarCraft64-recomp",
+      "description": "Native port of StarCraft 64",
+      "stars": 35,
+      "latestTag": "v0.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-13T19:54:14Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mr-finster--miyoo64",
+      "name": "miyoo64",
+      "repo": "mr-finster/miyoo64",
+      "description": "N64 games for the Miyoo Mini, built from the decomp projects. Bring your own ROM.",
+      "stars": 34,
+      "latestTag": "1.4.4",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T01:47:49Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "n0zom1z0--th04",
+      "name": "th04",
+      "repo": "N0zoM1z0/th04",
+      "description": "Source reconstruction of 東方幻想郷 ～ Lotus Land Story",
+      "stars": 34,
+      "latestTag": "portable64-2026.10.27",
+      "prerelease": true,
+      "publishedAt": "2026-10-27T13:45:29Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mr-finster--stunts-hd",
+      "name": "stunts-hd",
+      "repo": "mr-finster/stunts-hd",
+      "description": "Stunts / 4D Sports Driving (DOS, 1990) recompiled for your browser and desktop: HD 3D, widescreen, smooth at any refresh rate, the original's own physics. Bring your own copy.",
+      "stars": 33,
+      "latestTag": "v1.5.22",
+      "prerelease": false,
+      "publishedAt": "2026-10-26T06:41:14Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nikolaygorb--goldeneye007reloadedrecomp",
+      "name": "GoldenEye007ReloadedRecomp",
+      "repo": "nikolaygorb/GoldenEye007ReloadedRecomp",
+      "description": "GoldenEye007: Reloaded 2011 [Xbox360] game static recompilation project based on RexGlue-SDK",
+      "stars": 33,
+      "latestTag": "1.4",
+      "prerelease": false,
+      "publishedAt": "2026-10-27T18:22:13Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "robertoaraujo77--mc_la_recompiled",
+      "name": "MC_LA_Recompiled",
+      "repo": "robertoaraujo77/MC_LA_Recompiled",
+      "description": "Midnight Club: Los Angeles para PC — PT-BR, ultrawide automático, AMD FSR e instalador/configurador. Base mcla-recomp/ReXGlue.",
+      "stars": 31,
+      "latestTag": "v1.0.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-28T02:49:09Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mwrnk--desktop-melee",
+      "name": "desktop-melee",
+      "repo": "Mwrnk/desktop-melee",
+      "description": "Super Smash Bros. Melee on your Mac's desktop: fighters on the Dock, screen edges as blastzones. Built on the Melee decompilation via melee-pc. Bring your own disc.",
+      "stars": 30,
+      "latestTag": "v0.1.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-28T22:23:02Z",
+      "platforms": [
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jillsandwich1998--regh2",
+      "name": "reGH2",
+      "repo": "jillsandwich1998/reGH2",
+      "description": "Static recompilation of Guitar Hero 2 (Xbox 360) for PC",
+      "stars": 30,
+      "latestTag": "v0.2.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-27T01:09:42Z",
+      "platforms": [
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "masterllgod--naruto-rise-of-a-ninja-port-nativo",
+      "name": "naruto-rise-of-a-ninja-port-nativo",
+      "repo": "Masterllgod/naruto-rise-of-a-ninja-port-nativo",
+      "description": "Naruto: Rise of a Ninja (Xbox 360) rodando nativamente no Android ARM64 — recompilação estática, Vulkan, 360p a 4K, FXAA/FSR",
+      "stars": 30,
+      "latestTag": "v0.4",
+      "prerelease": false,
+      "publishedAt": "2026-10-20T23:03:43Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jessetbh--wcwnworevengerecomp",
+      "name": "WCWnWoRevengeRecomp",
+      "repo": "jessetbh/WCWnWoRevengeRecomp",
+      "description": "Native PC port of WCW/nWo Revenge (N64) via static recompilation. No game assets included - bring your own ROM.",
+      "stars": 30,
+      "latestTag": "v0.2.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-14T02:32:09Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "giacomozama--live-and-recompiled",
+      "name": "live-and-recompiled",
+      "repo": "giacomozama/live-and-recompiled",
+      "description": "An unofficial native PC port of the OG Xbox Conker: Live & Reloaded.",
+      "stars": 29,
+      "latestTag": "v1.0.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-28T23:31:58Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "giangra--stuntdouble-reignition",
+      "name": "stuntdouble-reignition",
+      "repo": "giangra/stuntdouble-reignition",
+      "description": "Stuntman: Ignition (Xbox 360) static recompilation for PC, built with ReXGlue",
+      "stars": 29,
+      "latestTag": "v0.3.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-24T10:36:55Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "iandrewjj--enchantedarmsrecomp",
+      "name": "EnchantedArmsRecomp",
+      "repo": "IAndrewJJ/EnchantedArmsRecomp",
+      "description": "Unofficial native PC recompilation of Enchanted Arms for Xbox 360. Build locally from your own ISO, with a simple Windows launcher and graphics settings.",
+      "stars": 29,
+      "latestTag": "v0.5.8",
+      "prerelease": true,
+      "publishedAt": "2026-10-23T20:16:46Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "andrewaltimit--legend-of-legaia-re",
+      "name": "legend-of-legaia-re",
+      "repo": "AndrewAltimit/legend-of-legaia-re",
+      "description": "Reverse-engineering Legend of Legaia (PSX, 1999): Ghidra-traced format documentation, Rust extractors for every asset on the disc, and an engine reimplementation targeting wgpu/SDL3 with optional WASM.  BYO-disc model, no assets distributed.",
+      "stars": 28,
+      "latestTag": "v1.12.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T11:22:35Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "gascarcella--dw2003recomp",
+      "name": "dw2003recomp",
+      "repo": "gascarcella/dw2003recomp",
+      "description": "PC Port of Digimon World 2003 (PS1, EU) ",
+      "stars": 28,
+      "latestTag": "v0.6.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T18:21:08Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "thatcalikid760--ttt2-recomp",
+      "name": "TTT2-Recomp",
+      "repo": "thatcalikid760/TTT2-Recomp",
+      "description": "Step back into the arena with a community-driven static recompilation of Tekken Tag Tournament 2. Built by a dedicated team of contributors, this project brings the legendary tag-team fighter to modern platforms with native PC performance, modernized rendering, and custom quality-of-life enhancements for competitive play. Xbox 360 ISO required.",
+      "stars": 28,
+      "latestTag": "v0.2.8",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T23:25:17Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "gabrielnnk--bigodao",
+      "name": "Bigodao",
+      "repo": "GABRIELNNK/Bigodao",
+      "description": "A static recompilation study and native port of Wario Land: Super Mario Land 3 with native widescreen support, 3D gameplay (experimental), mods support for HD tile and remastered music.",
+      "stars": 28,
+      "latestTag": "1.7.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T20:36:29Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "crabsmack--xmen2-pc",
+      "name": "xmen2-pc",
+      "repo": "crabsmack/xmen2-pc",
+      "description": "X-Men 2: Clone Wars (Genesis) as a native PC game, from a full decompilation: widescreen, high frame rate, up to 4 players on one PC or online (rollback netplay). Bring your own ROM.",
+      "stars": 27,
+      "latestTag": "v1.2.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T21:02:51Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "griches--ps5_mariogalaxy",
+      "name": "PS5_MarioGalaxy",
+      "repo": "griches/PS5_MarioGalaxy",
+      "description": "Super Mario Galaxy on the PlayStation 5: Nebula's static recompilation on a Win32 compatibility layer, Direct3D 12 on vkd3d and RADV",
+      "stars": 27,
+      "latestTag": "v1.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T15:27:28Z",
+      "platforms": [
+        "windows",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "haydntrigg--delink",
+      "name": "delink",
+      "repo": "HaydnTrigg/delink",
+      "description": "A splitting tool for decompilation projects",
+      "stars": 26,
+      "latestTag": "v0.18.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-16T08:41:31Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tmcleroy--vampire-savior-recomp",
+      "name": "vampire-savior-recomp",
+      "repo": "tmcleroy/vampire-savior-recomp",
+      "description": "Moved to tmcleroy/cps2recomp (CPS-2 Recomp). Unofficial native PC port of Vampire Savior (CPS-2 arcade) via static recompilation, with a training mode.",
+      "stars": 26,
+      "latestTag": "v0.1.0-beta.7",
+      "prerelease": true,
+      "publishedAt": "2026-10-15T18:48:12Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "elguslml--piratesatworldsendrecomp",
+      "name": "PiratesAtWorldsEndRecomp",
+      "repo": "ElGuslml/PiratesAtWorldsEndRecomp",
+      "description": "Pirates of the Caribbean: At World's End (Xbox 360) recompiled to run natively on PC. 60 FPS, widescreen, DLAA, achievements, and a launcher that installs the game from your own ISO.",
+      "stars": 26,
+      "latestTag": "v0.3.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-27T20:59:03Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "llamapixels--tenchuzrecomp",
+      "name": "TenchuZRecomp",
+      "repo": "Llamapixels/TenchuZRecomp",
+      "description": "Tenchu Z - HoloCatt Recomp Project: work-in-progress static recompilation of Tenchu Z (Xbox 360) for Windows. Bring your own disc image: no game files included.",
+      "stars": 25,
+      "latestTag": "v0.1.4-alpha",
+      "prerelease": true,
+      "publishedAt": "2026-10-26T04:43:51Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--saintsrow",
+      "name": "saintsrow",
+      "repo": "sp00nznet/saintsrow",
+      "description": "Saints Row (Xbox 360, 2006) - Static Recompilation",
+      "stars": 25,
+      "latestTag": "v0.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T12:58:26Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "monscriser--hydrothunderport",
+      "name": "HydroThunderPORT",
+      "repo": "monscriser/HydroThunderPORT",
+      "description": "Hydro Thunder Hurricane: Recompiled  Experimental Windows & Linux Port",
+      "stars": 25,
+      "latestTag": "v0.9.1-experimentalbuild",
+      "prerelease": false,
+      "publishedAt": "2026-10-17T02:54:13Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "lordingard--sacredstonesrecomp",
+      "name": "SacredStonesRecomp",
+      "repo": "Lordingard/SacredStonesRecomp",
+      "description": "Playable Windows and Android ARM64 recompilation of Fire Emblem: The Sacred Stones (GBA).",
+      "stars": 24,
+      "latestTag": "v0.1.20",
+      "prerelease": false,
+      "publishedAt": "2026-10-17T22:04:00Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "zoomieszaggy--space-channel-5",
+      "name": "Space-Channel-5",
+      "repo": "ZoomiesZaggy/Space-Channel-5",
+      "description": "Unofficial native Space Channel 5 port for Windows, Linux and macOS. Compiler-free downloads, display options, controller support and modding.",
+      "stars": 24,
+      "latestTag": "v0.1.0-preview.2",
+      "prerelease": false,
+      "publishedAt": "2026-09-17T20:35:54Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "yanm1103--war_of_the_monsters_recomp",
+      "name": "War_of_the_Monsters_recomp",
+      "repo": "yanm1103/War_of_the_Monsters_recomp",
+      "description": "PC port of War of the Monsters focused on QoL and new features",
+      "stars": 24,
+      "latestTag": "v0.1.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T22:48:13Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "parkerallan--doa2u-recomp",
+      "name": "doa2u-recomp",
+      "repo": "parkerallan/doa2u-recomp",
+      "description": "In Progress Dead or Alive 2 Ultimate PC Port ",
+      "stars": 24,
+      "latestTag": "netplay-v1.0.1",
+      "prerelease": true,
+      "publishedAt": "2026-10-29T06:35:37Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jackrushante--dbz-super-saiya-densetsu-rust",
+      "name": "DBZ-Super-Saiya-Densetsu-Rust",
+      "repo": "JackRushante/DBZ-Super-Saiya-Densetsu-Rust",
+      "description": "Dragon Ball Z: Super Saiya Densetsu (SNES) — Classic, Recompiled and HD Remastered, rewritten in Rust. Bring your own ROM.",
+      "stars": 23,
+      "latestTag": "v0.3.13",
+      "prerelease": true,
+      "publishedAt": "2026-10-29T18:27:00Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "arelkair--wiiparty-recomp",
+      "name": "wiiparty-recomp",
+      "repo": "arelkair/wiiparty-recomp",
+      "description": "Static recompilation of Wii Party for native PC. Requires your own legally obtained copy of the game; no copyrighted assets included.",
+      "stars": 23,
+      "latestTag": "v0.1.19-alpha",
+      "prerelease": false,
+      "publishedAt": "2026-10-25T22:24:44Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "oliverjessner--openemperor",
+      "name": "OpenEmperor",
+      "repo": "oliverjessner/OpenEmperor",
+      "description": "🤴🏼 Clean-room reimplementation of Emperor: Rise of the Middle Kingdom in C++20 and SDL3. Built for modern systems, starting with Apple Silicon macOS. Early development; original game data required.",
+      "stars": 23,
+      "latestTag": "v0.1.0-alpha.1",
+      "prerelease": true,
+      "publishedAt": "2026-09-19T10:51:23Z",
+      "platforms": [
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "griches--jamespond2robocodrecomp",
+      "name": "JamesPond2RobocodRecomp",
+      "repo": "griches/JamesPond2RobocodRecomp",
+      "description": "Static recompilation of James Pond 2: Codename RoboCod (Amiga) to C++ with SDL3: widescreen, smooth motion, Amiga 500 sound, pause menu. Bring your own disk image.",
+      "stars": 23,
+      "latestTag": "v1.0.4",
+      "prerelease": false,
+      "publishedAt": "2026-10-28T15:29:18Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jonathandc64--ffcceot-recomp",
+      "name": "FFCCEOT-Recomp",
+      "repo": "JonathanDC64/FFCCEOT-Recomp",
+      "description": "Native PC port of Final Fantasy Crystal Chronicles: Echoes of Time (DS) by static recompilation. Bring your own ROM: the game is built on your PC, nothing of the game is included. Windows and Linux. Alpha.",
+      "stars": 23,
+      "latestTag": "v0.3.1-alpha",
+      "prerelease": true,
+      "publishedAt": "2026-10-12T14:57:22Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "degradka--mc-classic-c",
+      "name": "mc-classic-c",
+      "repo": "degradka/mc-classic-c",
+      "description": "Minecraft Classic rewritten as God intended",
+      "stars": 22,
+      "latestTag": "server1.9.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-18T11:58:13Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "kerokline--breathoffire3pcport",
+      "name": "BreathOfFire3PCPort",
+      "repo": "kerokline/BreathOfFire3PCPort",
+      "description": "A renovation of the 2001 Chinese PC port of Breath of Fire III",
+      "stars": 22,
+      "latestTag": "latest",
+      "prerelease": true,
+      "publishedAt": "2026-10-15T23:55:40Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "gurekamdhillon--gd-melee-workspace",
+      "name": "gd-melee-workspace",
+      "repo": "GurekamDhillon/gd-melee-workspace",
+      "description": "GD's Melee: native PC port of Melee with rollback netplay, m-ex mods, Lua, the Geno fighter engine and LAB. Releases, launcher, tooling and fighter-port research. No game data.",
+      "stars": 22,
+      "latestTag": "v0.3.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-15T10:24:52Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "rerevvedrecomp--rerevved",
+      "name": "rerevved",
+      "repo": "ReRevvedRecomp/rerevved",
+      "description": "A static recomp of Civilization Revolution.",
+      "stars": 22,
+      "latestTag": "v0.6.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T08:32:35Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "monstercameron--libertyflux",
+      "name": "LibertyFlux",
+      "repo": "monstercameron/LibertyFlux",
+      "description": "Grand Theft Auto IV's engine, being rewritten in Rust one function at a time by AI agents, for 64-bit Windows, Windows on ARM and macOS. Contains no game code or assets.",
+      "stars": 21,
+      "latestTag": "latest-build",
+      "prerelease": true,
+      "publishedAt": "2026-10-12T07:49:04Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "rashevskyv--conker-lr-recomp",
+      "name": "conker-lr-recomp",
+      "repo": "rashevskyv/conker-lr-recomp",
+      "description": "Conker: Live & Reloaded (Xbox) on Nintendo Switch, Linux and Windows: static recompilation. Build it from your own XBE; no game data.",
+      "stars": 21,
+      "latestTag": "v0.55.0",
+      "prerelease": true,
+      "publishedAt": "2026-11-01T12:12:21Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jessetbh--wwfwrestlemania2000recomp",
+      "name": "WWFWrestleMania2000Recomp",
+      "repo": "jessetbh/WWFWrestleMania2000Recomp",
+      "description": "Native PC port of WWF WrestleMania 2000 (N64) via static recompilation. No game assets included - bring your own ROM.",
+      "stars": 21,
+      "latestTag": "v0.2.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-14T02:32:43Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jessetbh--akilauncher",
+      "name": "AkiLauncher",
+      "repo": "jessetbh/AkiLauncher",
+      "description": "Native Windows hub for the AKI-engine N64 wrestling recompilations - downloads and launches the ports. No game assets included.",
+      "stars": 21,
+      "latestTag": "v0.1.4",
+      "prerelease": false,
+      "publishedAt": "2026-10-14T02:33:31Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "bjnfne--dev7",
+      "name": "DEV7",
+      "repo": "BJNFNE/DEV7",
+      "description": "DEV7 is a Game Engine made by I.C.E Développement for Coktel Vision",
+      "stars": 20,
+      "latestTag": "IMGConverter",
+      "prerelease": false,
+      "publishedAt": "2025-04-28T18:11:08Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "dq9-remastered--dq9-remastered",
+      "name": "DQ9-Remastered",
+      "repo": "dq9-remastered/DQ9-Remastered",
+      "description": "Dragon Quest IX (EU) research: Nintendo DS decompilation tooling, ARM/Thumb static recompilation, and experimental SDL2/Godot native runtime. No game data.",
+      "stars": 20,
+      "latestTag": "v0.5.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-28T18:36:21Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "erreib--pure-recomp",
+      "name": "pure-recomp",
+      "repo": "erreib/pure-recomp",
+      "description": "Wipeout Pure (PSP, 2005) as a native program for Apple Silicon Macs and Windows, by static recompilation. No game data included: you play it from your own disc image.",
+      "stars": 20,
+      "latestTag": "v0.2.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-20T18:24:03Z",
+      "platforms": [
+        "windows",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "coccofresco--mgsone-recomp",
+      "name": "mgsone-recomp",
+      "repo": "coccofresco/mgsone-recomp",
+      "description": "Midnight Ghost Stone: a native Metal Gear Solid PS1 recompilation with original-asset Vulkan presentation. Experimental alpha.",
+      "stars": 20,
+      "latestTag": "alpha.1",
+      "prerelease": true,
+      "publishedAt": "2026-10-10T12:33:08Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tmcleroy--sfa2-recomp",
+      "name": "sfa2-recomp",
+      "repo": "tmcleroy/sfa2-recomp",
+      "description": "Moved to tmcleroy/cps2recomp (CPS-2 Recomp). Unofficial native PC port of Street Fighter Alpha 2 (CPS-2 arcade) via static recompilation, with a training mode.",
+      "stars": 20,
+      "latestTag": "v0.1.0-beta.2",
+      "prerelease": true,
+      "publishedAt": "2026-10-15T20:11:24Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--kotor-recomp",
+      "name": "kotor-recomp",
+      "repo": "sp00nznet/kotor-recomp",
+      "description": "Static recompilation of Star Wars: Knights of the Old Republic (PC) to native C, on pcrecomp - fixing the engine's modern-PC problems in its own code",
+      "stars": 20,
+      "latestTag": "v0.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-24T09:04:05Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mabec-games--iss2000-recomp",
+      "name": "iss2000-recomp",
+      "repo": "Mabec-games/iss2000-recomp",
+      "description": "Native Windows & Linux widescreen port of International Superstar Soccer 2000 (N64) via static recompilation",
+      "stars": 19,
+      "latestTag": "v1.4",
+      "prerelease": false,
+      "publishedAt": "2026-10-28T20:58:36Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mrbaazzman--asphalt5-native",
+      "name": "Asphalt5-Native",
+      "repo": "mrbaazzman/Asphalt5-Native",
+      "description": "Native x86-64 recompilation of Asphalt 5 ; APK-driven builder, no emulator.",
+      "stars": 19,
+      "latestTag": "v2.3.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T10:53:59Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tmcleroy--muscle-march-recomp",
+      "name": "muscle-march-recomp",
+      "repo": "tmcleroy/muscle-march-recomp",
+      "description": "Unofficial native PC port of Muscle March (WiiWare) via static recompilation: macOS, Linux, Steam Deck, Windows. Requires your own copy of the game. Beta.",
+      "stars": 19,
+      "latestTag": "v0.1.0-beta.5",
+      "prerelease": true,
+      "publishedAt": "2026-10-12T03:13:37Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tools81--nfl-head-coach-09-static-recomp",
+      "name": "nfl-head-coach-09-static-recomp",
+      "repo": "tools81/nfl-head-coach-09-static-recomp",
+      "description": "Static recompilation of NFL Head Coach 09 (Xbox 360) to native Windows. Bring your own disc image.",
+      "stars": 19,
+      "latestTag": "v0.8.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T20:40:14Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "plinkr--wild9recomp",
+      "name": "Wild9Recomp",
+      "repo": "plinkr/Wild9Recomp",
+      "description": "Native PC port of the classic PlayStation 1 title `Wild 9`, powered by static recompilation. Features true widescreen, high-resolution rendering, PGXP correction, intro skipping, higher framerate support, multiple languages, controls and gameplay changes and an extensible mod system",
+      "stars": 18,
+      "latestTag": "v0.1.9",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T21:56:18Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "cacodemontube--doomsnesrecomp",
+      "name": "DoomSNESRecomp",
+      "repo": "Cacodemontube/DoomSNESRecomp",
+      "description": "This is a PC Recomp of the SNES Version of Doom using SNESrecomp.",
+      "stars": 18,
+      "latestTag": "v0.04",
+      "prerelease": false,
+      "publishedAt": "2026-10-22T20:56:39Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "llamapixels--tenchurfdrecomp",
+      "name": "TenchuRFDRecomp",
+      "repo": "Llamapixels/TenchuRFDRecomp",
+      "description": "Tenchu: Return from Darkness - HoloCatt Recomp Project: work-in-progress static recompilation of Tenchu: Return from Darkness (original Xbox) for Windows. Bring your own disc image: no game files included.",
+      "stars": 18,
+      "latestTag": "v0.1.5-alpha",
+      "prerelease": true,
+      "publishedAt": "2026-11-01T18:15:13Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "maxleiter--project-8-plus",
+      "name": "project-8-plus",
+      "repo": "MaxLeiter/project-8-plus",
+      "description": "A PC recomp of Tony Hawk's Project 8, with HD textures, 60+ fps and mods",
+      "stars": 18,
+      "latestTag": "v0.9.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-27T05:32:31Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "vasist15-source--botwrecomp",
+      "name": "BOTWRecomp",
+      "repo": "vasist15-source/BOTWRecomp",
+      "description": "Breath of the Wild (Wii U 1.5.0) statically recompiled to native macOS/Metal. Bring your own dump: the installer builds the game on your Mac.",
+      "stars": 18,
+      "latestTag": "v0.1.5",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T19:33:03Z",
+      "platforms": [
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mstan--dragonballzlegacyofgokuiirecomp",
+      "name": "DragonBallZLegacyofGokuIIRecomp",
+      "repo": "mstan/DragonBallZLegacyofGokuIIRecomp",
+      "description": "Static recompilation of Dragon Ball Z: The Legacy of Goku II with Adaptive Widescreen · Part of the R.A.I.D. community",
+      "stars": 18,
+      "latestTag": "v0.0.3",
+      "prerelease": false,
+      "publishedAt": "2026-10-18T20:24:27Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--tiberiansun-recomp",
+      "name": "tiberiansun-recomp",
+      "repo": "sp00nznet/tiberiansun-recomp",
+      "description": "Static recompilation of Command & Conquer: Tiberian Sun and Firestorm",
+      "stars": 18,
+      "latestTag": "v0.1.0-alpha.2",
+      "prerelease": true,
+      "publishedAt": "2026-10-21T13:44:18Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "pedryvo--rrt2-decomp",
+      "name": "rrt2-decomp",
+      "repo": "pedryvo/rrt2-decomp",
+      "description": "Reverse engineering and modern Rust reimplementation of Railroad Tycoon II — same isometric gameplay, native 1080p/4K. Requires the original game data.",
+      "stars": 17,
+      "latestTag": "v0.3.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-23T13:38:20Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "thegh0stship--battletanx-global-assault-pc-port",
+      "name": "BattleTanx-Global-Assault-PC-Port",
+      "repo": "TheGh0stShip/BattleTanx-Global-Assault-PC-Port",
+      "description": "Native Windows and Linux port of BattleTanx: Global Assault using N64Recomp, N64ModernRuntime, RT64, and SDL2",
+      "stars": 17,
+      "latestTag": "v0.2.5",
+      "prerelease": false,
+      "publishedAt": "2026-10-13T19:08:22Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mr-shizzy--pacmanrecomp",
+      "name": "PacManRecomp",
+      "repo": "Mr-Shizzy/PacManRecomp",
+      "description": "Windows-only native recompilation of Pac-Man for the NES (the 1993 Namco release) with a launcher, extras, cheats and beginner-friendly modding. Bring your own ROM.",
+      "stars": 16,
+      "latestTag": "v1.1.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-06T02:59:12Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mrpowerup82--superman_returns_recomp",
+      "name": "superman_returns_recomp",
+      "repo": "MrPowerUp82/superman_returns_recomp",
+      "description": "Projeto experimental de recompilação estática da versão Xbox 360 de Superman Returns para PC com ReXGlue",
+      "stars": 16,
+      "latestTag": "v2026.10.30-88c81bc",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T00:30:49Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "minimalice92--bloodwake-recomp",
+      "name": "bloodwake-recomp",
+      "repo": "minimalice92/bloodwake-recomp",
+      "description": "Blood Wake (Xbox, 2001) as a native Windows game: a static recompilation you build from your own disc. Original + Remastered (4K, ultrawide, high frame rate, 17 original bugs fixed).",
+      "stars": 16,
+      "latestTag": "v0.2.4",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T02:48:47Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tekrantgaming--cartoon-network-racing-recompiled",
+      "name": "cartoon-network-racing-recompiled",
+      "repo": "TekRantGaming/cartoon-network-racing-recompiled",
+      "description": "Native PC port of Cartoon Network Racing (PlayStation 2, USA and Europe) via static recompilation, with the TRG launcher: 16:9, up to 4K, up to 165 FPS. Bring your own disc.",
+      "stars": 16,
+      "latestTag": "v1.0.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T17:40:59Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "junior-jones--top-gear-snes-static-recomp",
+      "name": "Top-Gear-SNES-Static-Recomp",
+      "repo": "Junior-Jones/Top-Gear-SNES-Static-Recomp",
+      "description": "Static recompilation of Top Gear (SNES) for Windows 10 and 11. ROM not included.",
+      "stars": 16,
+      "latestTag": "v2.1.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-19T01:06:43Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "itseniy--pvz-console-edition",
+      "name": "pvz-console-edition",
+      "repo": "ITSeniy/pvz-console-edition",
+      "description": "Unofficial Windows port of the Xbox 360 Plants vs. Zombies, statically recompiled with ReXGlue, with full mouse controls. Bring your own game copy.",
+      "stars": 15,
+      "latestTag": "v0.7.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-15T10:32:40Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--themepark-recomp",
+      "name": "themepark-recomp",
+      "repo": "sp00nznet/themepark-recomp",
+      "description": "Static recompilation of Bullfrog's Theme Park (DOS, 1994) to native Windows with pcrecomp. Bring your own GOG copy.",
+      "stars": 15,
+      "latestTag": "v0.6.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-26T17:24:40Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mabec-games--tekken-3-for-linux",
+      "name": "Tekken-3-for-Linux",
+      "repo": "Mabec-games/Tekken-3-for-Linux",
+      "description": "Tekken 3 for Linux - Native x86_64 Static Recompilation with True 16:9 Widescreen at 60 FPS, Built-In Mod Manager, and P2P Rollback Netplay",
+      "stars": 15,
+      "latestTag": "v1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T05:40:28Z",
+      "platforms": [
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "intermission88--sedotdeck",
+      "name": "SedotDeck",
+      "repo": "intermission88/SedotDeck",
+      "description": "Obtainium for Steam Deck: keep recomps, PC ports and emulators updated and in your Steam library",
+      "stars": 15,
+      "latestTag": "v0.0.3-alpha",
+      "prerelease": false,
+      "publishedAt": "2026-10-27T17:23:29Z",
+      "platforms": [
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mrfox-1--goldeneye-recomp-watch-music-fix",
+      "name": "GoldenEye-Recomp-Watch-Music-Fix",
+      "repo": "mrfox-1/GoldenEye-Recomp-Watch-Music-Fix",
+      "description": "Community fixes for GoldenEye Recomp 1.2.4: native XACT audio, tank mouse aiming, dead-body fades, and Frigate water in one tested Windows executable.",
+      "stars": 15,
+      "latestTag": "v2.2.2",
+      "prerelease": false,
+      "publishedAt": "2026-08-05T01:00:42Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "erikomis--infamous2-recomp",
+      "name": "infamous2-recomp",
+      "repo": "erikomis/infamous2-recomp",
+      "description": "Recompilação estática do inFAMOUS 2 (PS3) para macOS nativo com ps3recomp e o fork do inFAMOUS 1",
+      "stars": 15,
+      "latestTag": "v0.2.16",
+      "prerelease": true,
+      "publishedAt": "2026-10-31T22:02:51Z",
+      "platforms": [
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "anishchandra24--nhl2k8-recompiled",
+      "name": "NHL2K8-Recompiled",
+      "repo": "anishchandra24/NHL2K8-Recompiled",
+      "description": "An unofficial port of NHL 2K8 for the Xbox 360, to PC, done via static recompilation with the ReXGlue SDK. No game files are provided.",
+      "stars": 15,
+      "latestTag": "v1.3.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T07:28:01Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--vig8",
+      "name": "vig8",
+      "repo": "sp00nznet/vig8",
+      "description": "Vigilante 8 Arcade (Xbox 360 XBLA) statically recompiled to native Windows x86-64 with ReXGlue. Bring your own copy.",
+      "stars": 14,
+      "latestTag": "v0.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T01:03:10Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jstar269--nakagawa-recomp",
+      "name": "Nakagawa-Recomp",
+      "repo": "Jstar269/Nakagawa-Recomp",
+      "description": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
+      "stars": 14,
+      "latestTag": "v0.0.1",
+      "prerelease": true,
+      "publishedAt": "2026-10-28T03:35:44Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "secretpray--burnout-revenge",
+      "name": "burnout-revenge",
+      "repo": "secretpray/burnout-revenge",
+      "description": "Unofficial native Burnout Revenge (Xbox 360, USA) port for Apple silicon Macs (macOS 15+). Static recompilation, up to 4K rendering via Vulkan/MoltenVK, controller support and experimental online play. Requires your own USA Xbox 360 ISO; no game data included. Based on SpeedBreaker.",
+      "stars": 14,
+      "latestTag": "v0.1.29",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T22:42:55Z",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tekrantgaming--point-blank-recompiled",
+      "name": "point-blank-recompiled",
+      "repo": "TekRantGaming/point-blank-recompiled",
+      "description": "Native PC port of Namco's Point Blank (PlayStation) via static recompilation (PSXRecomp). Aim with your mouse or a controller, no light gun needed. Bring your own disc.",
+      "stars": 14,
+      "latestTag": "v1.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-04T14:34:05Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--linksawakening-portable",
+      "name": "linksawakening-portable",
+      "repo": "sp00nznet/linksawakening-portable",
+      "description": "Link's Awakening DX statically recompiled to C and ported to PS4, PS3, PS2, PSP, Vita, 3DS, Wii, GameCube, Dreamcast, Xbox, Xbox 360, Android and WebAssembly. Bring your own ROM.",
+      "stars": 14,
+      "latestTag": "v0.2.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T22:35:55Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "djultra64--power-dozer",
+      "name": "Power-Dozer",
+      "repo": "djultra64/Power-Dozer",
+      "description": "Power Dozer — native Blast Corps PC port using static recompilation. Linux and Windows; bring your own ROM.",
+      "stars": 13,
+      "latestTag": "v0.84",
+      "prerelease": false,
+      "publishedAt": "2026-10-12T04:24:48Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "recompteam--disruptorrecomp",
+      "name": "DisruptorRecomp",
+      "repo": "RecompTeam/DisruptorRecomp",
+      "description": "Disruptor (PlayStation, 1996) recompiled for Windows and Linux: widescreen, 60 FPS, up to 8x resolution, mouse and gamepad, RetroAchievements",
+      "stars": 13,
+      "latestTag": "v0.10.1",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T16:36:55Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nero2611--frontschweinerecomp",
+      "name": "FrontschweineRecomp",
+      "repo": "Nero2611/FrontschweineRecomp",
+      "description": "Native PC port of Hogs of War / Frontschweine (PS1, SLES-02767) via static recompilation. Bring your own disc.",
+      "stars": 13,
+      "latestTag": "v0.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-13T13:27:19Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "drakolordx7--metroidprimeremasteredrecomp",
+      "name": "MetroidPrimeRemasteredRecomp",
+      "repo": "drakolordx7/MetroidPrimeRemasteredRecomp",
+      "description": "Metroid Prime Remastered for Windows x64, built by statically recompiling the Switch version. Bring your own game dump.",
+      "stars": 13,
+      "latestTag": "v0.1.5",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T16:47:56Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "wndwsqrrl--3on3nhl-recomp",
+      "name": "3on3NHL-recomp",
+      "repo": "Wndwsqrrl/3on3NHL-recomp",
+      "description": "Native PC port of 3 on 3 NHL Arcade (Xbox 360) via static recompilation.",
+      "stars": 13,
+      "latestTag": "v0.1.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-06T17:26:44Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nikolaygorb--fuserecomp",
+      "name": "FuseRecomp",
+      "repo": "nikolaygorb/FuseRecomp",
+      "description": "Fuse game (2013) [Xbox360] game static recompilation project based on RexGlue-SDK",
+      "stars": 13,
+      "latestTag": "1.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-23T18:46:47Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "anishchandra24--maddennfl08-recompiled",
+      "name": "MaddenNFL08-Recompiled",
+      "repo": "anishchandra24/MaddenNFL08-Recompiled",
+      "description": "Native PC static recompilation of Madden NFL 08 (Xbox 360) using ReXGlue. No game files included.",
+      "stars": 13,
+      "latestTag": "v0.1.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-25T00:55:50Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mstan--dragonballzlegacyofgokurecomp",
+      "name": "DragonBallZLegacyOfGokuRecomp",
+      "repo": "mstan/DragonBallZLegacyOfGokuRecomp",
+      "description": "Static recompilation of Dragon Ball Z: The Legacy of Goku with Adaptive Widescreen · Part of the R.A.I.D. community",
+      "stars": 13,
+      "latestTag": "v0.0.3",
+      "prerelease": false,
+      "publishedAt": "2026-10-18T20:24:18Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "thefixinhixon--woohoo-flight-school",
+      "name": "woohoo-flight-school",
+      "repo": "thefixinhixon/woohoo-flight-school",
+      "description": "Unofficial native PC port of Pilotwings Resort (3DS) by static recompilation. Bring your own game dump; no game data included.",
+      "stars": 13,
+      "latestTag": "v0.1.1",
+      "prerelease": true,
+      "publishedAt": "2026-11-02T02:18:41Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "boburning--portcove",
+      "name": "portcove",
+      "repo": "boburning/portcove",
+      "description": "Local-first manager for decompilations, recompilations, and native PC ports.",
+      "stars": 12,
+      "latestTag": "v0.1.0-alpha.2",
+      "prerelease": true,
+      "publishedAt": "2026-09-08T16:48:17Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--linksawakening",
+      "name": "LinksAwakening",
+      "repo": "sp00nznet/LinksAwakening",
+      "description": "Static recompilation of The Legend of Zelda: Link's Awakening DX (Game Boy Color) to native C. Bring your own ROM.",
+      "stars": 11,
+      "latestTag": "v0.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T01:45:59Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tekrantgaming--whopping-recompilation-collection",
+      "name": "whopping-recompilation-collection",
+      "repo": "TekRantGaming/whopping-recompilation-collection",
+      "description": "Native PC ports of Sneak King, Big Bumpin' and PocketBike Racer (Xbox 360) via static recompilation, in one launcher",
+      "stars": 11,
+      "latestTag": "v1.0.8",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T22:48:48Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mattkuhnqaai--sfiii-native",
+      "name": "sfiii-native",
+      "repo": "mattkuhnQAAI/sfiii-native",
+      "description": "Shining Force III Recomp (Shining Force 3 Recomp): experimental native PC recompilation of Sega Saturn Scenarios 1, 2 and 3. Windows preview, Linux/macOS candidates, translated-disc profiles, controller/save imports and optional local AI graphics. Requires your own supported discs; full-game validation is ongoing.",
+      "stars": 11,
+      "latestTag": "v0.6.0-preview1",
+      "prerelease": true,
+      "publishedAt": "2026-10-24T11:29:37Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "goodshepherd23--jetmoto2-recomp",
+      "name": "JetMoto2-Recomp",
+      "repo": "goodshepherd23/JetMoto2-Recomp",
+      "description": "Jet Moto 2 Recompiled - native PC build of Jet Moto 2: Championship Edition (PS1, SCUS-94167) via RecompOne static recompilation. Bring your own disc.",
+      "stars": 10,
+      "latestTag": "v0.1.5",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T00:57:20Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jlagedo--dreams-to-reality-re",
+      "name": "dreams-to-reality-re",
+      "repo": "jlagedo/dreams-to-reality-re",
+      "description": "Static recompilation of Dreams to Reality (Cryo, 1997) for modern PCs: the Windows game lifted to C, with a GPU renderer, SDL3, a disc-image launcher, smooth motion, Cryo's restored level editor and a browser demo. Bring your own discs.",
+      "stars": 10,
+      "latestTag": "v0.2.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-13T23:18:20Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "anishchandra24--juiced2-recompiled",
+      "name": "Juiced2-Recompiled",
+      "repo": "anishchandra24/Juiced2-Recompiled",
+      "description": "Unofficial native Windows port of Juiced 2: Hot Import Nights for the Xbox 360, made with static recompilation via the ReXGlue SDK. Early preview. Contains no game files.",
+      "stars": 10,
+      "latestTag": "v0.1.0-preview",
+      "prerelease": true,
+      "publishedAt": "2026-10-28T01:28:33Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "leafyjerk--ps5_luigismansion",
+      "name": "PS5_LuigisMansion",
+      "repo": "leafyjerk/PS5_LuigisMansion",
+      "description": "Luigi's Mansion (GameCube) as native PS5 homebrew, at 4K/60: Luigi's Mansion Recompiled built for the console, with Windows and Linux builder apps that make the title from your own disc.",
+      "stars": 10,
+      "latestTag": "v1.0.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-24T04:51:04Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "btr-rj--redbaron_recomp",
+      "name": "RedBaron_Recomp",
+      "repo": "BTr-RJ/RedBaron_Recomp",
+      "description": "Native Windows x64 recompilation of Snoopy Flying Ace with a local-build launcher, modern video options and EOS online integration.",
+      "stars": 10,
+      "latestTag": "v0.10",
+      "prerelease": true,
+      "publishedAt": "2026-10-30T13:08:20Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "arthurreboulsalze--retrorecomp",
+      "name": "RetroRecomp",
+      "repo": "ArthurReboulSalze/RetroRecomp",
+      "description": "Static recompilation of retro games into standalone Windows and Linux executables. Nine console profiles, from Master System to Capcom CPS-1 and Sharp X68000, optional enhancements, eight languages and a shared learning loop.",
+      "stars": 10,
+      "latestTag": "v1.6.6",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T21:44:27Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "jessetbh--vpw64recomp",
+      "name": "VPW64Recomp",
+      "repo": "jessetbh/VPW64Recomp",
+      "description": "Native PC port of Virtual Pro Wrestling 64 (N64) via static recompilation. No game assets included - bring your own ROM.",
+      "stars": 10,
+      "latestTag": "v0.2.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-14T02:32:53Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tekrantgaming--muppet-racemania-recompiled",
+      "name": "muppet-racemania-recompiled",
+      "repo": "TekRantGaming/muppet-racemania-recompiled",
+      "description": "Native PC port of Muppet RaceMania (PlayStation) via static recompilation: 16:9, 60 FPS, Windows and Linux",
+      "stars": 10,
+      "latestTag": "v1.0.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-30T16:44:37Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "second-impressions--caesar2-port",
+      "name": "caesar2-port",
+      "repo": "second-impressions/caesar2-port",
+      "description": "Portable continuation of the Caesar II source reconstruction",
+      "stars": 9,
+      "latestTag": "v1.0.3",
+      "prerelease": false,
+      "publishedAt": "2026-09-09T05:50:51Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "bdragoncore--pommy-recomp",
+      "name": "pommy-recomp",
+      "repo": "bdragoncore/pommy-recomp",
+      "description": "A native PC port of Bomberman 64: The Second Attack!, statically recompiled with N64Recomp",
+      "stars": 9,
+      "latestTag": "v1.0.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-26T18:02:48Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "5c8--skate3recomp",
+      "name": "skate3recomp",
+      "repo": "5C8/skate3recomp",
+      "description": "Retail Skate 3 recompilation with native graphics, profiles, online play, split screen and SteamVR integration.",
+      "stars": 9,
+      "latestTag": "v1.0.7-skate3.20261101",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T13:26:24Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "guuzzeji--sneaky-whopper-recomp",
+      "name": "sneaky-whopper-recomp",
+      "repo": "Guuzzeji/sneaky-whopper-recomp",
+      "description": "Burger King: Sneak King (original Xbox) statically recompiled into a native Windows PC port, plus an experimental WebAssembly browser build. No emulator. Bring your own disc. For the memes.",
+      "stars": 9,
+      "latestTag": "angle-feebf60",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T22:00:47Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "iagodemacedo--openpoptb-macos",
+      "name": "OpenPopTB-MacOS",
+      "repo": "iagodemacedo/OpenPopTB-MacOS",
+      "description": "Native Apple Silicon macOS port of Populous: The Beginning via static recompilation. Bring your own copy of the game (GOG).",
+      "stars": 9,
+      "latestTag": "v0.2.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T14:38:22Z",
+      "platforms": [
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "ah64-dll--deepsea",
+      "name": "DeepSea",
+      "repo": "AH64-dll/DeepSea",
+      "description": "Deep Sea: The Wind Waker at 60 fps. A free, open-source native Windows port you build from your own disc.",
+      "stars": 9,
+      "latestTag": "v1.0.0-beta.4",
+      "prerelease": true,
+      "publishedAt": "2026-09-26T20:57:20Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "legendaryxp--mechassault2-recomp",
+      "name": "Mechassault2-recomp",
+      "repo": "LegendaryXP/Mechassault2-recomp",
+      "description": "An Xbox recomp of MechAssault 2: Lone Wolf with increased graphic fidelity and keyboard and mouse support.",
+      "stars": 8,
+      "latestTag": "v0.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-25T03:49:57Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "furqanagwan--007",
+      "name": "007",
+      "repo": "furqanagwan/007",
+      "description": "Xbox 360 James Bond games (Quantum of Solace, Blood Stone, 007 Legends) statically recompiled for Windows PC with ReXGlue: Direct3D 12, GDK. Configs and research only, no game files.",
+      "stars": 8,
+      "latestTag": "v0.1.0-alpha.3",
+      "prerelease": true,
+      "publishedAt": "2026-10-11T11:25:36Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "claudio5702--cristalis",
+      "name": "Cristalis",
+      "repo": "Claudio5702/Cristalis",
+      "description": "Crystal Defenders Recomp — unofficial native PC port (Windows, Linux) of Crystal Defenders (Xbox 360) by static recompilation. Bring your own copy of the game.",
+      "stars": 8,
+      "latestTag": "v1.11.2",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T15:30:25Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "comfubar--knowyourrolerecomp",
+      "name": "KnowYourRoleRecomp",
+      "repo": "Comfubar/KnowYourRoleRecomp",
+      "description": "Native Windows port of the 2000 PlayStation wrestling game (NTSC-U), built on your PC from your own disc with the RecompOne static recompiler. No game data included.",
+      "stars": 8,
+      "latestTag": "v0.2.0",
+      "prerelease": false,
+      "publishedAt": "2026-09-30T19:53:54Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--rampage",
+      "name": "Rampage",
+      "repo": "sp00nznet/Rampage",
+      "description": "Native Windows ports of Rampage: World Tour and Rampage 2: Universal Tour (N64), statically recompiled with N64Recomp. Bring your own ROM.",
+      "stars": 8,
+      "latestTag": "v0.3.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-26T10:35:56Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mstan--cdirecomp",
+      "name": "cdirecomp",
+      "repo": "mstan/cdirecomp",
+      "description": "Philips CD-i game static recompiler ecosystem · Part of the R.A.I.D. community",
+      "stars": 8,
+      "latestTag": "v0.0.3",
+      "prerelease": true,
+      "publishedAt": "2026-11-01T18:23:46Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mauriciosuporte--superbomberman5snesrecomp",
+      "name": "SuperBomberman5SNESRecomp",
+      "repo": "MauricioSuporte/SuperBomberman5SNESRecomp",
+      "description": "Unofficial Super Bomberman 5 Windows prototype using SNESRecomp. Partial recompilation, ROM-free setup releases, English and Portuguese docs.",
+      "stars": 8,
+      "latestTag": "v3.0.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T14:36:08Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "junior-jones--jungle-strike-snes-static-recomp",
+      "name": "Jungle-Strike-SNES-Static-Recomp",
+      "repo": "Junior-Jones/Jungle-Strike-SNES-Static-Recomp",
+      "description": "Static recompilation of Jungle Strike (SNES) for Windows 10 and 11. ROM not included.",
+      "stars": 8,
+      "latestTag": "v1.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-17T02:21:13Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--diddykongracing",
+      "name": "diddykongracing",
+      "repo": "sp00nznet/diddykongracing",
+      "description": "Native Windows port of Diddy Kong Racing (N64), statically recompiled with N64Recomp and rendered with RT64. Bring your own ROM.",
+      "stars": 7,
+      "latestTag": "v0.3.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-24T08:14:12Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "iptory--pes6-native",
+      "name": "pes6-native",
+      "repo": "iptory/pes6-native",
+      "description": "ReXGlue build harness for a native Windows x64 recompilation of PES6. No game data, generated code, or binaries.",
+      "stars": 7,
+      "latestTag": "v1.0.3",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T16:37:08Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "bonllavier--corruption_3-pc",
+      "name": "Corruption_3-PC",
+      "repo": "bonllavier/Corruption_3-PC",
+      "description": "Native PC port of the Wii version of Metroid Prime 3: Corruption: mostly static recompilation, with some decompiled parts. RetroAchievements compatible, PC visual upgrades, real Wii Remote support planned. Requires your own disc",
+      "stars": 7,
+      "latestTag": "v0.1.6",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T23:32:20Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "petarov--alleycat.exe",
+      "name": "alleycat.exe",
+      "repo": "petarov/alleycat.exe",
+      "description": "x86_64 recompilation of Alley Cat - a video game by Bill Williams for Atari (1983) and IBM PC (1984)",
+      "stars": 7,
+      "latestTag": "1.3",
+      "prerelease": false,
+      "publishedAt": "2026-10-16T19:59:25Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "phroster--disruptorrecomp",
+      "name": "DisruptorRecomp",
+      "repo": "Phroster/DisruptorRecomp",
+      "description": "Disruptor (Insomniac, 1996 PS1) rebuilt as a native Windows game: 60 fps, 16:9 widescreen, mouse & keyboard, high-res graphics. Built on your PC from your own disc.",
+      "stars": 7,
+      "latestTag": "v1.0.0-rc.2",
+      "prerelease": false,
+      "publishedAt": "2026-09-25T01:23:59Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "presidentraptor--ace-combat-04-pc-port",
+      "name": "Ace-Combat-04-PC-Port",
+      "repo": "PresidentRaptor/Ace-Combat-04-PC-Port",
+      "description": "Native Windows PC port of Ace Combat 04: Shattered Skies (USA, SLUS-20152). Beta; bring your own ISO. Built through static recompilation.",
+      "stars": 7,
+      "latestTag": "v2.2.3-beta",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T18:52:41Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "burg-media--gb2swf",
+      "name": "gb2swf",
+      "repo": "Burg-Media/gb2swf",
+      "description": "Convert Game Boy and Game Boy Color ROMs into Flash (SWF) files with an offline HTML player. Static recompiler, plays in Ruffle.",
+      "stars": 7,
+      "latestTag": "v1.0.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-13T20:48:07Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "alvaroepena--bo2-360-nx",
+      "name": "bo2-360-nx",
+      "repo": "AlvaroEPena/bo2-360-nx",
+      "description": "Black Ops II (Xbox 360) on Nintendo Switch and Windows by static recompilation: Zombies, Multiplayer and Campaign, built from your own game files",
+      "stars": 7,
+      "latestTag": "Release-1",
+      "prerelease": false,
+      "publishedAt": "2026-10-31T06:13:04Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--ut99-recomp",
+      "name": "ut99-recomp",
+      "repo": "sp00nznet/ut99-recomp",
+      "description": "Static recompilation of Unreal Tournament (Epic, 1999; Steam v436) to native C, headed for a modern makeover: its own presenter, widescreen, a modern render device. Built on pcrecomp.",
+      "stars": 7,
+      "latestTag": "v0.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-22T10:28:59Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "caiuscodes--aegis-wing-xbla-pc-recomp",
+      "name": "Aegis-Wing-XBLA-PC-Recomp",
+      "repo": "CaiusCodes/Aegis-Wing-XBLA-PC-Recomp",
+      "description": "Native Windows PC recompilation of Aegis Wing for Xbox 360/XBLA using ReXGlue. Requires your own copy of the game.",
+      "stars": 6,
+      "latestTag": "v0.9.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-07T12:09:57Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "goodshepherd23--hellnight-recompiled",
+      "name": "Hellnight-Recompiled",
+      "repo": "goodshepherd23/Hellnight-Recompiled",
+      "description": "Hell Night: Dark Messiah Recompiled - native PC build of Hellnight (PS1, SLES-01562) via PSXRecomp static recompilation. Bring your own disc.",
+      "stars": 6,
+      "latestTag": "v0.1.7",
+      "prerelease": false,
+      "publishedAt": "2026-10-26T22:55:50Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "dcrecomp--bluestingerrecomp",
+      "name": "BlueStingerRecomp",
+      "repo": "DCRecomp/BlueStingerRecomp",
+      "description": "Open-source static recompilation of Blue Stinger (Dreamcast, SH-4) into native Windows x64 C++20, focused on game preservation, hardware replacement, and modding.",
+      "stars": 6,
+      "latestTag": "v0.7.0",
+      "prerelease": true,
+      "publishedAt": "2026-10-24T16:42:17Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "elguslml--ghmetalrecomp",
+      "name": "GHMetalRecomp",
+      "repo": "ElGuslml/GHMetalRecomp",
+      "description": "Guitar Hero: Metallica (Xbox 360) recompiled to run natively on PC. Xbox 360 guitars, singing with any PC microphone, up to 240 FPS, ultrawide, achievements, and a launcher that installs the game from your own ISO.",
+      "stars": 6,
+      "latestTag": "v0.2.2",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T03:33:34Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "resterle--ddg-recomp",
+      "name": "ddg-recomp",
+      "repo": "resterle/ddg-recomp",
+      "description": "Static recompilation of densha de go final",
+      "stars": 6,
+      "latestTag": "v0.0.2-beta",
+      "prerelease": false,
+      "publishedAt": "2026-10-23T18:01:07Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "elguslml--kameorecomp",
+      "name": "KameoRecomp",
+      "repo": "ElGuslml/KameoRecomp",
+      "description": "Kameo: Elements of Power (Xbox 360) recompiled to run natively on PC. 60+ FPS, widescreen and ultrawide, achievements, and a launcher that installs the game from your own ISO.",
+      "stars": 6,
+      "latestTag": "v0.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-23T20:21:57Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "citrongames--dora64-3",
+      "name": "Dora64-3",
+      "repo": "citrongames/Dora64-3",
+      "description": "Native recompilation of Doraemon 3: Nobita no Machi SOS! for Windows, Linux and Android.",
+      "stars": 6,
+      "latestTag": "v1.0.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-13T18:39:04Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "alondero--worlddriverchampionship-recomp",
+      "name": "worlddriverchampionship-recomp",
+      "repo": "alondero/worlddriverchampionship-recomp",
+      "description": "First playable World Driver Championship N64 recompilation using N64Recomp, N64ModernRuntime, and RT64",
+      "stars": 6,
+      "latestTag": "v0.2.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-29T13:14:34Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "junior-jones--simcity-snes-static-recomp",
+      "name": "SimCity-SNES-Static-Recomp",
+      "repo": "Junior-Jones/SimCity-SNES-Static-Recomp",
+      "description": "Static recompilation of SimCity (SNES) for Windows 10 and 11. ROM not included.",
+      "stars": 6,
+      "latestTag": "v1.4.1",
+      "prerelease": false,
+      "publishedAt": "2026-09-05T03:27:17Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "mstan--hotelmariorecomp",
+      "name": "HotelMarioRecomp",
+      "repo": "mstan/HotelMarioRecomp",
+      "description": "",
+      "stars": 6,
+      "latestTag": "v0.0.3",
+      "prerelease": true,
+      "publishedAt": "2026-11-01T18:23:47Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "nuvolacat--pcfsite-source",
+      "name": "pcfsite-source",
+      "repo": "nuvolacat/pcfsite-source",
+      "description": "PCF 4.0–2001 recompilados estáticamente de x86 a C (Ghidra + Capstone) sobre una plataforma propia que reimplementa Windows 98, MS-DOS y DirectX en C++/SDL3. Nativo (macOS, Windows) y WebAssembly; web source.pcfsite.com y app de escritorio con mods.",
+      "stars": 6,
+      "latestTag": "v1.26.1101.1245",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T12:20:14Z",
+      "platforms": [
+        "windows",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "matiasriverac--ssx-tricky-pc",
+      "name": "SSX-Tricky-PC",
+      "repo": "MatiasRiveraC/SSX-Tricky-PC",
+      "description": "Unofficial native PC port of SSX Tricky (Xbox), statically recompiled with xboxrecomp. Bring your own disc.",
+      "stars": 6,
+      "latestTag": "v0.2.0",
+      "prerelease": false,
+      "publishedAt": "2026-09-30T13:59:49Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "kazuyette--senjin-recomped",
+      "name": "senjin-recomped",
+      "repo": "kazuyette/senjin-recomped",
+      "description": "Static recompilation of Senjin Aleste (M2, arcade APM3) to native Linux x86-64, plus a Windows apm_x86.dll replacement. No game data — bring your own copy.",
+      "stars": 6,
+      "latestTag": "v0.6.11",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T18:29:52Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "petarov--saboteur2",
+      "name": "saboteur2",
+      "repo": "petarov/saboteur2",
+      "description": "A recompilation of Saboteur II: Avenging Angel (1987) from its original DOS executable to x86_64 platforms",
+      "stars": 5,
+      "latestTag": "1.1",
+      "prerelease": false,
+      "publishedAt": "2026-10-18T09:04:35Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "marcpique--mario-kart-wii-pc-builder",
+      "name": "mario-kart-wii-pc-builder",
+      "repo": "MarcPique/mario-kart-wii-pc-builder",
+      "description": "Compila tu disco PAL de Mario Kart Wii para Windows: opciones nativas, idioma en vivo y Retro WFC. No incluye ROM.",
+      "stars": 5,
+      "latestTag": "v1.0.0-preview.20261101",
+      "prerelease": true,
+      "publishedAt": "2026-11-01T18:09:03Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "katon17--black-linux",
+      "name": "black-linux",
+      "repo": "Katon17/black-linux",
+      "description": "Native Linux port of Black (Xbox, 2006) - static recompilation, Vulkan + SDL3, .deb for Ubuntu/Mint. Bring your own game.",
+      "stars": 5,
+      "latestTag": "v0.1.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-23T13:29:19Z",
+      "platforms": [
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "ravenx444--rgo-recomp",
+      "name": "RGO-Recomp",
+      "repo": "ravenx444/RGO-Recomp",
+      "description": "Rocket Group Orion (RGO): an open, unofficial PC recompilation with modern controls, widescreen and configurable gameplay. Your own supported ROM is required.",
+      "stars": 5,
+      "latestTag": "rgo-v0.1.1-preview.3",
+      "prerelease": true,
+      "publishedAt": "2026-10-18T00:26:05Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "leproide--medievilrecomp-esp",
+      "name": "MediEvilRecomp-ESP",
+      "repo": "Leproide/MediEvilRecomp-ESP",
+      "description": "Recompilación estática de MediEvil (PS1) versión PAL española SCES-01495 para PC: nativo en Windows/Linux/macOS, panorámico y renderizado mejorado. Basado en MediEvilRecomp (BlackLabelHQ) y en el port PAL italiano. Requiere tu propio disco original.",
+      "stars": 5,
+      "latestTag": "v1.1.8",
+      "prerelease": false,
+      "publishedAt": "2026-11-02T12:10:13Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "veritr1x--populous-recomp",
+      "name": "populous-recomp",
+      "repo": "veritr1x/populous-recomp",
+      "description": "Native macOS recompilation of Populous: The Beginning with Metal rendering, native audio and a C/Lua mod API. Bring your own game files.",
+      "stars": 5,
+      "latestTag": "latest",
+      "prerelease": true,
+      "publishedAt": "2026-09-12T18:25:41Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "vetusmagnus--project-solana",
+      "name": "project-solana",
+      "repo": "vetusmagnus/project-solana",
+      "description": "",
+      "stars": 5,
+      "latestTag": "rac1",
+      "prerelease": false,
+      "publishedAt": "2026-10-14T00:15:26Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "junior-jones--bubble-bobble-nes-static-recomp",
+      "name": "Bubble-Bobble-NES-Static-Recomp",
+      "repo": "Junior-Jones/Bubble-Bobble-NES-Static-Recomp",
+      "description": "Static recompilation of Bubble Bobble (NES) for Windows 10 and 11. ROM not included.",
+      "stars": 5,
+      "latestTag": "v1.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-08-27T04:05:17Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "manjarqo--ps4-native-mac",
+      "name": "ps4-native-mac",
+      "repo": "manjarqo/ps4-native-mac",
+      "description": "AOT recompiler of PS4 games to native arm64 macOS apps (Apple Silicon), with an HLE runtime and a Metal GNM renderer",
+      "stars": 5,
+      "latestTag": "v0.5.0",
+      "prerelease": false,
+      "publishedAt": "2026-11-01T15:27:03Z",
+      "platforms": [
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "laurentgarcia--sega-rally-recomp",
+      "name": "sega-rally-recomp",
+      "repo": "LaurentGarcia/sega-rally-recomp",
+      "description": "Sega Rally Championship static recompilation for macOS, Windows and Linux. Direct Metal and Vulkan renderers; experimental iPhone port.",
+      "stars": 5,
+      "latestTag": "v0.1.0-player.4",
+      "prerelease": true,
+      "publishedAt": "2026-10-17T19:30:48Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "juliocacko--re15pc",
+      "name": "RE15pc",
+      "repo": "JulioCacko/RE15pc",
+      "description": "Native Windows x64 preservation port of the Biohazard 2 (Nov 6, 1996) prototype — Resident Evil 1.5 — built by statically recompiling the disc's MIPS executable and its seven overlays. Requires your own disc image.",
+      "stars": 5,
+      "latestTag": "v0.4.0",
+      "prerelease": false,
+      "publishedAt": "2026-09-29T02:38:02Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "legendarydoors--ncaafootball14recomp",
+      "name": "NCAAFootball14Recomp",
+      "repo": "LegendaryDoors/NCAAFootball14Recomp",
+      "description": "NCAA Football 14 (Xbox 360) recompiled for Windows and Linux with the ReXGlue SDK",
+      "stars": 4,
+      "latestTag": "v0.1.1",
+      "prerelease": false,
+      "publishedAt": "2026-09-13T06:19:28Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--rol",
+      "name": "rol",
+      "repo": "sp00nznet/rol",
+      "description": "Static recompilation of Rise of Nations: Rise of Legends (2006) - the Big Huge Games rts2 engine lifted to native C. Bring your own disc; no game files included.",
+      "stars": 4,
+      "latestTag": "v0.1.0-alpha.1",
+      "prerelease": true,
+      "publishedAt": "2026-10-30T11:29:11Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--metalslug",
+      "name": "metalslug",
+      "repo": "sp00nznet/metalslug",
+      "description": "Metal Slug (1996) statically recompiled to native C on the neogeorecomp Neo Geo toolkit. Bring your own ROMs.",
+      "stars": 4,
+      "latestTag": "v0.1.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T00:07:42Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tools81--link-faces-of-evil-static-recomp",
+      "name": "link-faces-of-evil-static-recomp",
+      "repo": "tools81/link-faces-of-evil-static-recomp",
+      "description": "Static recompilation of the Philips CD-i game Link: The Faces of Evil for Windows (bring your own disc image)",
+      "stars": 4,
+      "latestTag": "v1.0.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T13:31:31Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "sp00nznet--neodriftout",
+      "name": "neodriftout",
+      "repo": "sp00nznet/neodriftout",
+      "description": "A native PC port of Neo Drift Out (1996) via static recompilation of the original Neo Geo 68000 code.",
+      "stars": 4,
+      "latestTag": "v0.2.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-21T00:07:46Z",
+      "platforms": [
+        "windows",
+        "linux",
+        "macos"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "ericodeoliveira--international-rally-championship-recomp",
+      "name": "international-rally-championship-recomp",
+      "repo": "ericodeoliveira/international-rally-championship-recomp",
+      "description": "Static recompiler that turns International Rally Championship (1997) into a native 64-bit Windows game - no emulator, no CD. / Recompilador estático: IRC nativo no Windows moderno.",
+      "stars": 4,
+      "latestTag": "v1.0.0",
+      "prerelease": false,
+      "publishedAt": "2026-10-08T21:17:43Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "tools81--hotel-mario-static-recomp",
+      "name": "hotel-mario-static-recomp",
+      "repo": "tools81/hotel-mario-static-recomp",
+      "description": "Static recompilation of Hotel Mario (Philips CD-i) for Windows - tools and runtime only, build from your own disc",
+      "stars": 4,
+      "latestTag": "v1.0.2",
+      "prerelease": false,
+      "publishedAt": "2026-10-25T03:56:33Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "griby-man--bardown",
+      "name": "bardown",
+      "repo": "griby-man/bardown",
+      "description": "NHL 14 (Xbox 360) statically recompiled to run natively on Linux and Windows, with its own Vulkan renderer. Bring your own disc.",
+      "stars": 4,
+      "latestTag": "v0.3.7",
+      "prerelease": false,
+      "publishedAt": "2026-10-17T08:46:24Z",
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "gustavomorinaga--project-vekta",
+      "name": "project-vekta",
+      "repo": "gustavomorinaga/project-vekta",
+      "description": "Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "stars": 4,
+      "latestTag": "v0.2.0",
+      "prerelease": true,
+      "publishedAt": "2026-11-01T02:44:21Z",
+      "platforms": [
+        "windows"
+      ],
+      "reviewed": false
+    }
+  ]
+}
