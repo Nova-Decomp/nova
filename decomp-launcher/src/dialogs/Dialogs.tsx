@@ -1,37 +1,74 @@
+import { useEffect, useState } from "react";
 import { Modal } from "@/components/Modal";
-import { getGames, getMods } from "@/data/catalog";
+import { fetchCatalog, getMods } from "@/data/catalog";
 import { noop } from "@/lib/noop";
-import type { Game } from "@/types";
+import type { CatalogEntry, Game } from "@/types";
 
 type CloseProps = { onClose: () => void };
 
 export function DownloadDialog({ onClose }: CloseProps) {
+  const [entries, setEntries] = useState<CatalogEntry[]>([]);
+  const [query, setQuery] = useState("");
+  const [status, setStatus] = useState<"loading" | "error" | "ready">(
+    "loading",
+  );
+
+  useEffect(() => {
+    fetchCatalog()
+      .then((e) => {
+        setEntries(e);
+        setStatus("ready");
+      })
+      .catch(() => setStatus("error"));
+  }, []);
+
+  const q = query.trim().toLowerCase();
+  const shown = entries.filter(
+    (e) =>
+      !q ||
+      e.name.toLowerCase().includes(q) ||
+      e.description.toLowerCase().includes(q),
+  );
+
   return (
     <Modal title="Download Decomps" onClose={onClose}>
-      <input className="search" placeholder="Search games…" />
+      <input
+        className="search"
+        placeholder="Search games…"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+      {status === "loading" && <p className="muted">Loading catalog…</p>}
+      {status === "error" && (
+        <p className="muted">
+          Couldn't load the catalog. Run `npm run catalog` first.
+        </p>
+      )}
       <div className="list">
-        {getGames().map((g) => (
-          <div className="row-item" key={g.id}>
-            <div className="mini-cover">{g.name.charAt(0)}</div>
+        {shown.slice(0, 100).map((e) => (
+          <div className="row-item" key={e.id}>
+            <div className="mini-cover">{e.name.charAt(0)}</div>
             <div className="grow">
-              <strong>{g.name}</strong>{" "}
-              <span className="tag">{g.platform}</span>
-              <p className="muted">{g.description}</p>
+              <strong>{e.name}</strong>{" "}
+              <span className="tag">{e.latestTag}</span>{" "}
+              {e.prerelease && <span className="tag">pre-release</span>}{" "}
+              {e.setup && <span className="tag">setup required</span>}{" "}
+              {!e.reviewed && <span className="tag">unreviewed</span>}
+              <p className="muted">{e.description}</p>
+              <p className="muted">{e.platforms.join(" · ")}</p>
             </div>
-            {g.installed ? (
-              <span className="muted">Installed</span>
-            ) : (
-              <button className="primary" onClick={noop}>
-                Install
-              </button>
-            )}
+            <button className="primary" onClick={noop}>
+              Install
+            </button>
           </div>
         ))}
+        {status === "ready" && shown.length === 0 && (
+          <p className="muted">No games found.</p>
+        )}
       </div>
     </Modal>
   );
 }
-
 export function GuideDialog({ onClose }: CloseProps) {
   return (
     <Modal title="How to install games" onClose={onClose}>

@@ -1,0 +1,15 @@
+{
+  "Revivedx/SavageWindRecomp": {
+    "name": "Breath of the Wild: Savage Wind",
+    "game-platform": "Nintendo Switch",
+    "setup": {
+      "type": "extract-tool",
+      "requires": "Your own BotW game data, version 1.8.2, dumped from your Switch",
+      "guide": [
+        "Dump your own copy of Breath of the Wild (v1.8.2) from your Switch.",
+        "Select the game data folder below.",
+        "The launcher runs the project's configuration tool to prepare the game. This can take a long time on first run."
+      ]
+    }
+  }
+}
