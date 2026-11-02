@@ -1,4 +1,4 @@
-import type { Game, Mod } from "@/types";
+import type { CatalogEntry, Game, Mod } from "@/types";
 
 // MOCK DATA. Later this file will load from AllRecomps (if permitted) or our own manifests.
 const games: Game[] = [
@@ -58,3 +58,9 @@ const mods: Mod[] = [
 export const getGames = (): Game[] => games;
 export const getMods = (gameId: string): Mod[] =>
   mods.filter((m) => m.gameId === gameId);
+export async function fetchCatalog(): Promise<CatalogEntry[]> {
+  const res = await fetch("/catalog.json");
+  if (!res.ok) throw new Error(`Could not load the catalog (${res.status})`);
+  const data = (await res.json()) as { entries: CatalogEntry[] };
+  return data.entries;
+}
